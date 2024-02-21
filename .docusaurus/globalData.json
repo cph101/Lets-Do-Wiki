@@ -1,0 +1,83 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/Lets-Do-Wiki/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/Lets-Do-Wiki/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "dragonflame/congratulations",
+              "path": "/Lets-Do-Wiki/docs/dragonflame/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "dragonflame/create-a-blog-post",
+              "path": "/Lets-Do-Wiki/docs/dragonflame/create-a-blog-post",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "dragonflame/create-a-document",
+              "path": "/Lets-Do-Wiki/docs/dragonflame/create-a-document",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "dragonflame/deploy-your-site",
+              "path": "/Lets-Do-Wiki/docs/dragonflame/deploy-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "dragonflame/items",
+              "path": "/Lets-Do-Wiki/docs/dragonflame/items",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "dragonflame/markdown-features",
+              "path": "/Lets-Do-Wiki/docs/dragonflame/markdown-features",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/Lets-Do-Wiki/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-extras/manage-docs-versions",
+              "path": "/Lets-Do-Wiki/docs/tutorial-extras/manage-docs-versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-extras/translate-your-site",
+              "path": "/Lets-Do-Wiki/docs/tutorial-extras/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/dragonflame",
+              "path": "/Lets-Do-Wiki/docs/category/dragonflame",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---extras",
+              "path": "/Lets-Do-Wiki/docs/category/tutorial---extras",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/Lets-Do-Wiki/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

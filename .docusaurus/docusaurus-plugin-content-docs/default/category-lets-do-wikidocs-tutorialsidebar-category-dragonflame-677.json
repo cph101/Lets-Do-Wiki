@@ -1,0 +1,16 @@
+{
+  "title": "Dragonflame",
+  "description": "Dragonflame is our most recent and (you could say fanciest) mod out of the series. Still in alpha, we hope to implement all sorts of features from custom particles to stunning cutscense animations.",
+  "slug": "/category/dragonflame",
+  "permalink": "/Lets-Do-Wiki/docs/category/dragonflame",
+  "navigation": {
+    "previous": {
+      "title": "Tutorial Intro",
+      "permalink": "/Lets-Do-Wiki/docs/intro"
+    },
+    "next": {
+      "title": "Items",
+      "permalink": "/Lets-Do-Wiki/docs/dragonflame/items"
+    }
+  }
+}

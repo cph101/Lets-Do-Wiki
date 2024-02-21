@@ -1,0 +1,26 @@
+{
+  "id": "dragonflame/create-a-document",
+  "title": "Create a Document",
+  "description": "Documents are groups of pages connected through:",
+  "source": "@site/docs/dragonflame/create-a-document.md",
+  "sourceDirName": "dragonflame",
+  "slug": "/dragonflame/create-a-document",
+  "permalink": "/Lets-Do-Wiki/docs/dragonflame/create-a-document",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Items",
+    "permalink": "/Lets-Do-Wiki/docs/dragonflame/items"
+  },
+  "next": {
+    "title": "Create a Blog Post",
+    "permalink": "/Lets-Do-Wiki/docs/dragonflame/create-a-blog-post"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "dragonflame/congratulations",
+  "title": "Congratulations!",
+  "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+  "source": "@site/docs/dragonflame/congratulations.md",
+  "sourceDirName": "dragonflame",
+  "slug": "/dragonflame/congratulations",
+  "permalink": "/Lets-Do-Wiki/docs/dragonflame/congratulations",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deploy your site",
+    "permalink": "/Lets-Do-Wiki/docs/dragonflame/deploy-your-site"
+  },
+  "next": {
+    "title": "Tutorial - Extras",
+    "permalink": "/Lets-Do-Wiki/docs/category/tutorial---extras"
+  }
+}
