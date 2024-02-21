@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactMarkdown from 'react-markdown';
 
 export function ItemImage({ modId, imageUrl }) {
   return (
@@ -12,15 +13,18 @@ export function ItemImage({ modId, imageUrl }) {
 }
 
 export default function ItemList({ modId, itemList }) {
-  return (
-    <div>
-      {itemList.map((item, index) => (
-        <div key={index} style={{ marginBottom: '4px' }}>
-          <ItemImage modId={modId} imageUrl={item.imageId} />
-          <strong style={{ textDecorations: 'bold'}}>{item.name}</strong>
-          <span> - {item.description}</span>
+    return (
+        <div>
+            {itemList.map((item, index) => (
+                <span key={index} style={{marginBottom: '4px'}}>
+                    <ItemImage modId={modId} imageUrl={item.imageId}/>
+                    <span style={{fontWeight: 'bold'}}>{item.name}</span>
+                    <span> - </span>
+                    <span className="speckyInlineMarkdown"><ReactMarkdown>{item.description}</ReactMarkdown></span>
+                    <br className="bigAssItemSpacer"/>
+                </span>
+            ))}
         </div>
-      ))}
-    </div>
-  );
+    );
 }
+

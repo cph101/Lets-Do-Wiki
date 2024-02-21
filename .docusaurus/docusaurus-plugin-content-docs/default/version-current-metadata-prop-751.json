@@ -11,7 +11,7 @@
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "Tutorial Intro",
+        "label": "Introduction",
         "href": "/Lets-Do-Wiki/docs/intro",
         "docId": "intro",
         "unlisted": false
@@ -41,13 +41,6 @@
             "label": "Create a Blog Post",
             "href": "/Lets-Do-Wiki/docs/dragonflame/create-a-blog-post",
             "docId": "dragonflame/create-a-blog-post",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "Markdown Features",
-            "href": "/Lets-Do-Wiki/docs/dragonflame/markdown-features",
-            "docId": "dragonflame/markdown-features",
             "unlisted": false
           },
           {
@@ -120,19 +113,13 @@
     "dragonflame/items": {
       "id": "dragonflame/items",
       "title": "Items",
-      "description": "<ItemList modId=\"dragonflame\" itemList={",
-      "sidebar": "tutorialSidebar"
-    },
-    "dragonflame/markdown-features": {
-      "id": "dragonflame/markdown-features",
-      "title": "Markdown Features",
-      "description": "Docusaurus supports Markdown and a few additional features.",
+      "description": "Dragonflame has x amount of items, which are listed below:",
       "sidebar": "tutorialSidebar"
     },
     "intro": {
       "id": "intro",
-      "title": "Tutorial Intro",
-      "description": "Let's discover Docusaurus in less than 5 minutes.",
+      "title": "Introduction",
+      "description": "Lorem ipsum dolor sit amet, List mods at later stage",
       "sidebar": "tutorialSidebar"
     },
     "tutorial-extras/manage-docs-versions": {

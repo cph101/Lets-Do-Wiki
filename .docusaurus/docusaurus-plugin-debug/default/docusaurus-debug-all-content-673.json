@@ -65,8 +65,8 @@
                 "permalink": "/Lets-Do-Wiki/docs/dragonflame/create-a-document"
               },
               "next": {
-                "title": "Markdown Features",
-                "permalink": "/Lets-Do-Wiki/docs/dragonflame/markdown-features"
+                "title": "Deploy your site",
+                "permalink": "/Lets-Do-Wiki/docs/dragonflame/deploy-your-site"
               }
             },
             {
@@ -113,8 +113,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Markdown Features",
-                "permalink": "/Lets-Do-Wiki/docs/dragonflame/markdown-features"
+                "title": "Create a Blog Post",
+                "permalink": "/Lets-Do-Wiki/docs/dragonflame/create-a-blog-post"
               },
               "next": {
                 "title": "Congratulations!",
@@ -124,7 +124,7 @@
             {
               "id": "dragonflame/items",
               "title": "Items",
-              "description": "<ItemList modId=\"dragonflame\" itemList={",
+              "description": "Dragonflame has x amount of items, which are listed below:",
               "source": "@site/docs/dragonflame/items.md",
               "sourceDirName": "dragonflame",
               "slug": "/dragonflame/items",
@@ -148,35 +148,9 @@
               }
             },
             {
-              "id": "dragonflame/markdown-features",
-              "title": "Markdown Features",
-              "description": "Docusaurus supports Markdown and a few additional features.",
-              "source": "@site/docs/dragonflame/markdown-features.mdx",
-              "sourceDirName": "dragonflame",
-              "slug": "/dragonflame/markdown-features",
-              "permalink": "/Lets-Do-Wiki/docs/dragonflame/markdown-features",
-              "draft": false,
-              "unlisted": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Blog Post",
-                "permalink": "/Lets-Do-Wiki/docs/dragonflame/create-a-blog-post"
-              },
-              "next": {
-                "title": "Deploy your site",
-                "permalink": "/Lets-Do-Wiki/docs/dragonflame/deploy-your-site"
-              }
-            },
-            {
               "id": "intro",
-              "title": "Tutorial Intro",
-              "description": "Let's discover Docusaurus in less than 5 minutes.",
+              "title": "Introduction",
+              "description": "Lorem ipsum dolor sit amet, List mods at later stage",
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
@@ -268,10 +242,6 @@
                   {
                     "type": "doc",
                     "id": "dragonflame/create-a-blog-post"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "dragonflame/markdown-features"
                   },
                   {
                     "type": "doc",

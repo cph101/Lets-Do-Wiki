@@ -1,7 +1,7 @@
 {
   "id": "dragonflame/items",
   "title": "Items",
-  "description": "<ItemList modId=\"dragonflame\" itemList={",
+  "description": "Dragonflame has x amount of items, which are listed below:",
   "source": "@site/docs/dragonflame/items.md",
   "sourceDirName": "dragonflame",
   "slug": "/dragonflame/items",

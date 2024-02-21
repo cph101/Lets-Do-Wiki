@@ -36,11 +36,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "dragonflame/markdown-features",
-              "path": "/Lets-Do-Wiki/docs/dragonflame/markdown-features",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "intro",
               "path": "/Lets-Do-Wiki/docs/intro",
               "sidebar": "tutorialSidebar"

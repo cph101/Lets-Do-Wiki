@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/Lets-Do-Wiki/docs',
-    component: ComponentCreator('/Lets-Do-Wiki/docs', '948'),
+    component: ComponentCreator('/Lets-Do-Wiki/docs', '6e8'),
     routes: [
       {
         path: '/Lets-Do-Wiki/docs',
-        component: ComponentCreator('/Lets-Do-Wiki/docs', '212'),
+        component: ComponentCreator('/Lets-Do-Wiki/docs', '020'),
         routes: [
           {
             path: '/Lets-Do-Wiki/docs',
-            component: ComponentCreator('/Lets-Do-Wiki/docs', '737'),
+            component: ComponentCreator('/Lets-Do-Wiki/docs', 'e1e'),
             routes: [
               {
                 path: '/Lets-Do-Wiki/docs/category/dragonflame',
@@ -93,12 +93,6 @@ export default [
               {
                 path: '/Lets-Do-Wiki/docs/dragonflame/items',
                 component: ComponentCreator('/Lets-Do-Wiki/docs/dragonflame/items', '7eb'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/Lets-Do-Wiki/docs/dragonflame/markdown-features',
-                component: ComponentCreator('/Lets-Do-Wiki/docs/dragonflame/markdown-features', 'bf3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

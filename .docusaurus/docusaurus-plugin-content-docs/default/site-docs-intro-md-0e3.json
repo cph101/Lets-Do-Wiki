@@ -1,7 +1,7 @@
 {
   "id": "intro",
-  "title": "Tutorial Intro",
-  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "title": "Introduction",
+  "description": "Lorem ipsum dolor sit amet, List mods at later stage",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
