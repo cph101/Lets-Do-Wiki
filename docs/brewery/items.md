@@ -6,45 +6,45 @@ import ItemList from '@site/src/components/modules/ItemList';
 
 # Items
 
-Brewery has <span>{brewery.length}</span> items, which are listed below:
+Brewery has <span>{breweryItems.length}</span> items, which are listed below:
 
 <ItemList modId="brewery" itemList={breweryItems} />
 
 
 export const breweryItems = [
   {
-    "name": "Hearthstone",
-    "imageId": "hearthstone.png",
+    "name": "Hops",
+    "imageId": "hops.png",
     "description": "Teleports the user to their last-used bed when held for 4 seconds. Has a Cooldown of 5 minutes."
   },
   {
-    "name": "Flamethrower",
-    "imageId": "flamethrower.gif",
+    "name": "Hops Seeds",
+    "imageId": "hops_seeds.png",
     "description": "Liquid fire gun. Has 200 uses."
   },
   {
-    "name": "Arcane torch",
-    "imageId": "arcane_torch.png",
+    "name": "Barley",
+    "imageId": "barley.png",
     "description": "A special torch variant found rarely in chests and used in rituals to obtain **titan dust**. Only torches placed by the player will drop, and only if they have not been used before."
   },
   {
-    "name": "Draconic for Dummies",
-    "imageId": "draconic_for_dummies.gif",
-    "description": "A weapon enchantment which deals 0.4 extra damage points and an additional 2 if the attacked entity is a pillager or an undead mob. The total added damage points multiply by the enchantment level, of which the maximum is 10"
+    "name": "Barley Seeds",
+    "imageId": "barley_seeds.png",
+    "description": "Book, IDK what else to write here lol"
   },
   {
-    "name": "Dragon tears",
-    "imageId": "dragon_tears.png",
+    "name": "Corn",
+    "imageId": "corn.png",
     "description": "Can be drank to obtain 2-8 XP, yuk!"
   },
   {
-    "name": "Dragon Saddle",
-    "imageId": "dragon_saddle.png",
+    "name": "Corn Seeds",
+    "imageId": "corn_seeds.png",
     "description": "Used to ride dragons, normal saddles are a bit too small"
   },
   {
-    "name": "Essence of Fire",
-    "imageId": "essence_of_fire.png",
-    "description": "Can be used on a **Grim Anvil** in order to obtain **Titan Ingots**"
+    "name": "Breathalyzer",
+    "imageId": "breathalyzer_green.png",
+    "description": "Takes 5 seconds to use, and sets the tooltip to how exactly how drunk you are"
   }
 ];
