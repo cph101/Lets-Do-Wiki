@@ -21,7 +21,7 @@ export default function ItemList({ modId, itemList }) {
                     <span style={{fontWeight: 'bold'}}>{item.name}</span>
                     <span> - </span>
                     <span className="speckyInlineMarkdown"><ReactMarkdown>{item.description}</ReactMarkdown></span>
-                    <br className="bigAssItemSpacer"/>
+                    <span className="bigAssItemSpacer"></span>
                 </span>
             ))}
         </div>

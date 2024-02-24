@@ -6,12 +6,12 @@ import ItemList from '@site/src/components/modules/ItemList';
 
 # Items
 
-Dragonflame has <span>{dragonFlameItems.length}</span> items, which are listed below:
+Brewery has <span>{brewery.length}</span> items, which are listed below:
 
-<ItemList modId="dragonflame" itemList={dragonFlameItems} />
+<ItemList modId="brewery" itemList={breweryItems} />
 
 
-export const dragonFlameItems = [
+export const breweryItems = [
   {
     "name": "Hearthstone",
     "imageId": "hearthstone.png",

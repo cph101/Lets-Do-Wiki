@@ -34,7 +34,6 @@
 }
 
 .bigAssItemSpacer {
-  content: "";
-  margin: 0.7em;
-  display: block
+  display: block;
+  margin-bottom: 0.7em;
 }
