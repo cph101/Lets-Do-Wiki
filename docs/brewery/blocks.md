@@ -70,4 +70,4 @@ export const barrel = [
 ];
 
 ## Brewingstation
-<BlockIcon modId="brewery" imageId={copper_brewingstation.png} />
+<BlockIcon modId="brewery" imageId="copper_brewingstation.png" />
