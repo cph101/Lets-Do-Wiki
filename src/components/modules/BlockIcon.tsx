@@ -12,11 +12,12 @@ export function ItemImage({ modId, imageUrl }) {
   );
 }
 
-export default function BlockIcon({ modId, imageId }) {
+export default function BlockIcon({ modId, imageId, description }) {
     return (
         <div>
             <span style={{marginBottom: '4px'}}>
                 <ItemImage modId={modId} imageUrl={imageId}/>
+                <span className="speckyInlineMarkdown"><ReactMarkdown>{description}</ReactMarkdown></span>
                 <span className="bigAssItemSpacer"></span>
             </span>
         </div>
