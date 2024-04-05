@@ -38,7 +38,7 @@ The silo is needed to dry harvested wheat, barley, or corn. The silo is modular 
 ### Usage
 Right-click with the item to be dried to place it in the silo.\
 Right-click to open the silo hatch (when closed).\
-Right-click to close the silo hatch (when open).\
+Right-click to close the silo hatch (when open).
 <br />
 The content also dries with the hatch open. When the hatch is closed, the content will not be emptied automatically.
 

@@ -6,7 +6,7 @@ export function ItemImage({ modId, imageUrl }) {
     <span>
       <img
         src={`/Lets-Do-Wiki/img/textures/${modId}/block/${imageUrl}`}
-        style={{ imageRendering: 'pixelated', width: '22px', marginRight: '4px', marginBottom: "-5px" }}
+        style={{ imageRendering: 'pixelated', width: '100px', marginRight: '4px', marginBottom: "-5px" }}
       />
     </span>
   );
