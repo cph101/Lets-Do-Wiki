@@ -59,7 +59,7 @@ const config: Config = {
       title: '[Let\'s Do] mods Wiki',
       logo: {
         alt: '[Let\'s Do] mods logo',
-        src: 'img/logo.svg',
+        src: 'img/letsdo.png',
       },
       items: [
         {
