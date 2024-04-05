@@ -15,11 +15,10 @@ export function ItemImage({ modId, imageUrl }) {
 export default function BlockIcon({ modId, imageId }) {
     return (
         <div>
-            <span key={index} style={{marginBottom: '4px'}}>
-                                <ItemImage modId={modId} imageUrl={imageId}/>
-                                <span className="bigAssItemSpacer"></span>
-                            </span>
+            <span style={{marginBottom: '4px'}}>
+                <ItemImage modId={modId} imageUrl={imageId}/>
+                <span className="bigAssItemSpacer"></span>
+            </span>
         </div>
     );
 }
-
