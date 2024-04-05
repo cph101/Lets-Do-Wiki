@@ -10,6 +10,8 @@ import BlockIcon from '@site/src/components/modules/BlockIcon';
 ## Wild Crops
 After successfully adding Brewery to your mods, you will be able to discover various new plant species in newly generated chunks. Some of these will be more common, while others will be rarer to find. So keep your eyes open!
 
+Note: Hops will also spawn in modded biomes as long as their using the respective biome tags.
+
 <BlockList modId="brewery" itemList={wildCrops} />
 
 export const wildCrops = [
@@ -29,7 +31,6 @@ export const wildCrops = [
     "description": "Same as Corn. If you having trouble finding Barley Seeds just throw some Wheat Seeds on a Woodcutter and enjoy your freshly cut Barley Seeds."
   }
 ];
-Note: Hops will also spawn in modded biomes as long as their using the respective biome tags.
 
 ## Silo
 The silo is needed to dry harvested wheat, barley, or corn. The silo is modular and can be expanded in both width and height. The larger the silo, the higher the capacity and the shorter the drying time.
@@ -70,13 +71,3 @@ export const barrel = [
 
 ## Brewingstation
 <BlockIcon modId="brewery" imageId={copper_brewingstation.png} />
-
-
-
-
-
-
-
-
-
-
