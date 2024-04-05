@@ -99,7 +99,7 @@ There are different tiers for the brewing station: Wood, Copper, and Netherite. 
 ***
 
 ## Rope
-<BlockIcon modId="brewery" imageId="rope.png" description="After successfully adding Brewery to your mods, you will be able to discover various new plant species in newly generated chunks. Some of these will be more common, while others will be rarer to find. So keep your eyes open!" />
+<BlockIcon modId="brewery" imageId="rope.png" description="After successfully adding Brewery to your mods, you will be able to discover various new plant species in newly generated chunks. Some of these will be more common, while others will be rarer to find. So keep your eyes open!After successfully adding Brewery to your mods, you will be able to discover various new plant species in newly generated chunks. Some of these will be more common, while others will be rarer to find. So keep your eyes open!" />
 
 ### Usage
 Even though hops can grow without a rope, they can be further stabilized with the use of one. This additional stabilization allows the hops to grow taller than 2 blocks.
