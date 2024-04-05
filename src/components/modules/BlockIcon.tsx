@@ -6,7 +6,7 @@ export function ItemImage({ modId, imageUrl }) {
     <span>
       <img
         src={`/Lets-Do-Wiki/img/textures/${modId}/block/${imageUrl}`}
-        style={{ imageRendering: 'pixelated', width: '100px', marginRight: '4px', marginBottom: "-5px" }}
+        style={{ imageRendering: 'pixelated', width: '50px', marginRight: '4px', marginBottom: "-5px" }}
       />
     </span>
   );
@@ -15,7 +15,7 @@ export function ItemImage({ modId, imageUrl }) {
 export default function BlockIcon({ modId, imageId, description }) {
     return (
         <div style={{ display: 'flex', alignItems: 'center' }}>
-            <ItemImage modId={modId} imageUrl={imageId}/>
+            <ItemImage modId={modId} imageUrl={imageId} style={{ flexShrink: 0, flexGrow: 1 }}/>
             <span className="speckyInlineMarkdown" style={{ marginLeft: '8px' }}>
                 <ReactMarkdown>{description}</ReactMarkdown>
             </span>
