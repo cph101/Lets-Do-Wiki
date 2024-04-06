@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 
 import ItemList from '@site/src/components/modules/ItemList';
-import ItemIcon from '@site/src/components/modules/ItemIcon';
+import { ItemIcon } from '@site/src/components/modules/Icon';
 
 # Items
 ## Food

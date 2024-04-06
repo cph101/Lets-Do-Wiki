@@ -3,7 +3,8 @@ sidebar_position: 1
 ---
 
 import BlockList from '@site/src/components/modules/BlockList';
-import BlockIcon from '@site/src/components/modules/BlockIcon';
+import { BlockIcon } from '@site/src/components/modules/Icon';
+
 
 
 # Blocks
