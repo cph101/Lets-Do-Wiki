@@ -57,7 +57,7 @@ export const wildCrops = [
 },
 {
 "name": "Pint Charisma",
-"imageId": "printcharisma.png",
+"imageId": "pintcharisma.png",
 "description": "10% discount while trading with villagers."
 },
 {
