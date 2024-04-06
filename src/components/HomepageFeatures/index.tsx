@@ -1,67 +1,52 @@
+import React from 'react';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import CategoryCard from './CategoryCard'; // Import your CategoryCard component
 
-type FeatureItem = {
-  title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
-  description: JSX.Element;
-};
-
-const FeatureList: FeatureItem[] = [
+const MainCategoryList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    name: 'Meadow',
+    slug: 'meadow',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Start your journey with Docusaurus and learn how to get started with your documentation.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    name: 'Brewery',
+    slug: 'brewery',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Find answers to frequently asked questions about Docusaurus and its usage.
       </>
     ),
   },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
+  // Add more main categories as needed
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function MainCategory({name, description, slug}: {name: string, description: JSX.Element, slug: string}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        {/* You can add an SVG icon for each category if desired */}
       </div>
       <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
+        <Heading as="h3">{name}</Heading>
         <p>{description}</p>
       </div>
     </div>
   );
 }
 
-export default function HomepageFeatures(): JSX.Element {
+export default function HomepageCategories(): JSX.Element {
   return (
     <section className={styles.features}>
       <div className="container">
         <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
+          {MainCategoryList.map((category, idx) => (
+            <CategoryCard key={idx} category={category} />
           ))}
         </div>
       </div>
