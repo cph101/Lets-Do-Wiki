@@ -3,48 +3,24 @@ sidebar_position: 2
 ---
 
 import ItemList from '@site/src/components/modules/ItemList';
+import ItemIcon from '@site/src/components/modules/ItemIcon';
 
 # Items
+## Food
+<ItemIcon modId="brewery" imageId="pretzel.png" description="What would the Brewfest be without food? There is a variety of food inspired by the Bavarian Oktoberfest. Most of it can be easily made in the Smoker. For others, one must get a bit more creative." />
 
-Brewery has <span>{breweryItems.length}</span> items, which are listed below:
+Want to slice your chicken? Throw it on a Stonecutter!
+Need Mashed Potatoes? Toss them on a Stonecutter as well!
 
-<ItemList modId="brewery" itemList={breweryItems} />
+## Armor
+<ItemIcon modId="brewery" imageId="brewfest_hat.png" description="And of course, everyone attending the Brewfest should be properly dressed. The corresponding clothing can be obtained from a Bartender Villager. This villager uses a Barblock as a workstation." />
+
+The piece of clothing he sells is random, so you might well need to visit several traders to get the complete set.
+
+As a reward for wearing the full set, you become immune to the effects of alcohol. Woohoo!
+
+## Completionist Banner
+<ItemIcon modId="brewery" imageId="beer_standard.png" description="The Completionist Banner is awarded to all players who have crafted all Beverages from the Brewery Mod. <br> <br> **Note:** To receive the respective Advancements, you need all the items in your inventory at the same time." />
 
 
-export const breweryItems = [
-  {
-    "name": "Hops",
-    "imageId": "hops.png",
-    "description": "Teleports the user to their last-used bed when held for 4 seconds. Has a Cooldown of 5 minutes."
-  },
-  {
-    "name": "Hops Seeds",
-    "imageId": "hops_seeds.png",
-    "description": "Liquid fire gun. Has 200 uses."
-  },
-  {
-    "name": "Barley",
-    "imageId": "barley.png",
-    "description": "A special torch variant found rarely in chests and used in rituals to obtain **titan dust**. Only torches placed by the player will drop, and only if they have not been used before."
-  },
-  {
-    "name": "Barley Seeds",
-    "imageId": "barley_seeds.png",
-    "description": "Book, IDK what else to write here lol"
-  },
-  {
-    "name": "Corn",
-    "imageId": "corn.png",
-    "description": "Can be drank to obtain 2-8 XP, yuk!"
-  },
-  {
-    "name": "Corn Seeds",
-    "imageId": "corn_seeds.png",
-    "description": "Used to ride dragons, normal saddles are a bit too small"
-  },
-  {
-    "name": "Breathalyzer",
-    "imageId": "breathalyzer_green.png",
-    "description": "Takes 5 seconds to use, and sets the tooltip to how exactly how drunk you are"
-  }
-];
+Thank you for playing Brewery! ❤️

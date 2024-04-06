@@ -27,4 +27,3 @@ export default function ItemList({ modId, itemList }) {
         </div>
     );
 }
-
