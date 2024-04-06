@@ -8,7 +8,7 @@ import { ItemList } from '@site/src/components/modules/List';
 
 Dragonflame has <span>{dragonFlameItems.length}</span> items, which are listed below:
 
-<ItemList modId="dragonflame" itemList={dragonFlameItems} />
+<ItemList modId="dragonflame" list={dragonFlameItems} />
 
 
 export const dragonFlameItems = [
