@@ -10,21 +10,21 @@ import { EffectList } from '@site/src/components/modules/List';
 <EffectList modId="brewery" list={wildCrops} />
 
 export const wildCrops = [
-  {
-    "name": "Toxic Touch",
-    "imageId": "toxictouch.png",
-    "description": "Applies Poison to all hit entities."
-  },
-  {
-    "name": "Renewing Touch",
-    "imageId": "renewingtouch.png",
-    "description": "Applies Regeneration to all hit entities."
-  },
-  {
-    "name": "Protective Touch",
-    "imageId": "protectivetouch.png",
-    "description": "Applies Absorbtion to all hit entities."
-  },
+{
+"name": "Toxic Touch",
+"imageId": "toxictouch.png",
+"description": "Applies Poison to all hit entities."
+},
+{
+"name": "Renewing Touch",
+"imageId": "renewingtouch.png",
+"description": "Applies Regeneration to all hit entities."
+},
+{
+"name": "Protective Touch",
+"imageId": "protectivetouch.png",
+"description": "Applies Absorbtion to all hit entities."
+},
 {
 "name": "Healing Touch",
 "imageId": "healingtouch.png",

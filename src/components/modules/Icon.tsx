@@ -19,6 +19,7 @@ export default function Icon({ modId, imageId, description, type }) {
             <span className="speckyInlineMarkdown" style={{ marginLeft: '8px' }}>
                 <ReactMarkdown>{description}</ReactMarkdown>
             </span>
+            <span className="bigAssItemSpacer"></span>
         </div>
     );
 }

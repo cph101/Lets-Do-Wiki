@@ -92,8 +92,6 @@ In wheel form, they can be placed as blocks or in cheese racks. When in block fo
 ## Decorative Blocks
 <BlockIcon modId="meadow" imageId="camera.png" description="Of course, there are also some decorative blocks. Some of them, such as the camera, door mat, or fire logs, have no further use other than as a decorative element." />
 
-<br />
-
 <BlockList modId="meadow" list={decorativeBlocks} />
 
 export const decorativeBlocks = [
