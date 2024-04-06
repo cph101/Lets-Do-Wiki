@@ -4,8 +4,6 @@ sidebar_position: 2
 
 import { BlockIcon } from '@site/src/components/modules/Icon';
 import Image from '@site/src/components/modules/Image';
-import ImageSpecial from '@site/src/components/modules/ImageSpecial';
-
 
 # Blocks
 ## Cheese Press
@@ -15,7 +13,7 @@ import ImageSpecial from '@site/src/components/modules/ImageSpecial';
 
 The block has two input slots: One will usually be used for rennet, the other one for milk.
 
-<ImageSpecial modId="meadow" imageId="cheese_press_gui.png" align="right" />
+<img src="https://github.com/satisfyu/Meadow/assets/65647523/3f3aebe7-dda2-486e-bd37-9df3a692aa4e.png" alt="silo" align="right" width="325" height="150" style="margin-right:20px;">
 
 
 Once you've placed the ingredients needed for the respective recipe into the corresponding input slots, it takes around a minute for the pressing process to complete - the crafted cheese wheel then appears in the output slot.
