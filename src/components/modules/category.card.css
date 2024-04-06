@@ -1,0 +1,21 @@
+/* CategoryCard.css */
+
+.cardContainer_fWXF {
+  text-align: center; /* Center content horizontally */
+  margin-bottom: 20px; /* Add some margin between cards */
+}
+
+.card__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+}
+
+.card__image {
+  max-width: 75%; /* Adjust maximum width of the logo */
+  height: auto;
+}
+
+.card__title {
+  margin-top: 10px; /* Add some space between logo and category name */
+}
