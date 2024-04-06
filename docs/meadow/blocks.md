@@ -13,7 +13,7 @@ import Icon from '@site/src/components/modules/Icon';
 
 The block has two input slots: One will usually be used for rennet, the other one for milk.
 
-<Icon modId="meadow" imageId="cheese_press_gui.png" align="right" />
+<Image modId="meadow" imageId="cheese_press_gui.png" align="right" />
 
 
 Once you've placed the ingredients needed for the respective recipe into the corresponding input slots, it takes around a minute for the pressing process to complete - the crafted cheese wheel then appears in the output slot.
