@@ -4,6 +4,7 @@ sidebar_position: 2
 
 import { ItemList } from '@site/src/components/modules/List';
 import { ItemIcon } from '@site/src/components/modules/Icon';
+import { Image } from '@site/src/components/modules/Image';
 
 # Items
 ## Alpine Salt
