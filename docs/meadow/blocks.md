@@ -20,7 +20,7 @@ Depending on which type of milk you use, the produced cheese is different. There
 
 <Image modId="meadow" imageId="cheese_press_gui.png" align="center" />
 
-Note: The cheese wheel located in the output slot is also displayed within the block in the game world.
+**Note:** The cheese wheel located in the output slot is also displayed within the block in the game world.
 
 ***
 
@@ -50,6 +50,8 @@ The woodcutter behaves similarly to the vanilla stonecutter, but instead of ston
 <BlockIcon modId="meadow" imageId="wooden_cauldron.png" description="Similar to a usual Cauldron you can store Powder Snow and Water inside of it - it's the perfect early game alternative to save Iron." />
 
 ... Lava? No. You can't place Lava inside of it. It's a Wooden Cauldron.
+
+***
 
 ## Climbing Rope
 <BlockIcon modId="meadow" imageId="climbing_rope.png" description="A small but efficient tool to overcome height differences of up to 10 blocks." />
@@ -89,6 +91,8 @@ In wheel form, they can be placed as blocks or in cheese racks. When in block fo
 
 ## Decorative Blocks
 <BlockIcon modId="meadow" imageId="camera.png" description="Of course, there are also some decorative blocks. Some of them, such as the camera, door mat, or fire logs, have no further use other than as a decorative element." />
+
+<br />
 
 <BlockList modId="meadow" list={decorativeBlocks} />
 

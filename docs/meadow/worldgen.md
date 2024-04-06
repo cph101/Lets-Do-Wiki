@@ -59,3 +59,5 @@ export const flowers = [
 ];
 
 Also, not only fallen trees can be found but also revised firs: The Pine. Pine wood is the new wood set introduced by Meadow.
+
+***
