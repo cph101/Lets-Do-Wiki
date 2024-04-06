@@ -3,6 +3,7 @@
   "position": 5,
   "link": {
     "type": "generated-index",
-    "description": "In [Let's Do] Bakery you can build your own bakery, bake the finest pastries, delicious bread, and sweet cakes!"
+    "description": "In [Let's Do] Bakery you can build your own bakery, bake the finest pastries, delicious bread, and sweet cakes!",
+    "slug": "meadow"
   }
 }
