@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from '@docusaurus/Link';
-import './CategoryCard.css'; // Import the CSS file with your custom styles
+import './category.card.css'; // Import the CSS file with your custom styles
 
 const CategoryCard = ({ category }) => {
   return (
