@@ -1,10 +1,5 @@
 /* CategoryCard.css */
 
-.cardContainer_fWXF {
-  text-align: center; /* Center content horizontally */
-  margin-bottom: 20px; /* Add some margin between cards */
-}
-
 .card__body {
   display: flex;
   flex-direction: column;
@@ -17,5 +12,11 @@
 }
 
 .card__title {
+  margin: 0;
   margin-top: 10px; /* Add some space between logo and category name */
+}
+
+.card:hover {
+  background-color: #f0f0f0;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); /* Add box-shadow effect on hover */
 }
