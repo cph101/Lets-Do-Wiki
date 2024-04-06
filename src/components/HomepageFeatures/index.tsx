@@ -9,6 +9,7 @@ const MainCategoryList = [
   {
     name: 'Meadow',
     slug: 'meadow',
+    logo: '/Lets-Do-Wiki/img/letsdo.png',
     description: (
       <>
         Start your journey with Docusaurus and learn how to get started with your documentation.
@@ -18,6 +19,7 @@ const MainCategoryList = [
   {
     name: 'Brewery',
     slug: 'brewery',
+    logo: '/Lets-Do-Wiki/img/letsdo.png',
     description: (
       <>
         Find answers to frequently asked questions about Docusaurus and its usage.

@@ -1,12 +1,16 @@
 import React from 'react';
+import React from 'react';
 import Link from '@docusaurus/Link';
 
 const CategoryCard = ({ category }) => {
   return (
-    <div className="cardContainer_fWXF">
-      <Link to={`/docs/${category.slug}`} className="cardLinkAnchor_1w01">
-        <h2>{category.name}</h2>
-        {/* You can add more information about the category if needed */}
+    <div className="padding-vert--lg padding-horiz--lg">
+      <Link to={`/docs/${category.slug}`} className="card">
+        <div className="card__body">
+          {/* Replace text with logo image */}
+          <img src={category.logo} alt={category.name} className="card__image" />
+          <div className="card__title">{category.name}</div>
+        </div>
       </Link>
     </div>
   );
