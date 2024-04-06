@@ -24,9 +24,9 @@ export default function Icon({ modId, imageId, description, type }) {
 }
 
 export function ItemIcon(props) {
-    return <ItemIcon {...props} type="item" />;
+    return <Icon {...props} type="item" />;
 }
 
 export function BlockIcon(props) {
-    return <ItemIcon {...props} type="block" />;
+    return <Icon {...props} type="block" />;
 }
