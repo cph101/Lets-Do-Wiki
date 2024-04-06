@@ -20,7 +20,8 @@ The piece of clothing he sells is random, so you might well need to visit severa
 As a reward for wearing the full set, you become immune to the effects of alcohol. Woohoo!
 
 ## Completionist Banner
-<ItemIcon modId="brewery" imageId="beer_standard.png" description="The Completionist Banner is awarded to all players who have crafted all Beverages from the Brewery Mod. <br> <br> **Note:** To receive the respective Advancements, you need all the items in your inventory at the same time." />
+<ItemIcon modId="brewery" imageId="beer_standard.png" description="The Completionist Banner is awarded to all players who have crafted all Beverages from the Brewery Mod.\ **Note:** To receive the respective Advancements, you need all the items in your inventory at the same time." />
 
+<br>
 
 Thank you for playing Brewery! ❤️
