@@ -56,7 +56,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: '[Let\'s Do] Wiki',
+      title: 'Wiki',
       logo: {
         alt: '[Let\'s Do] Logo',
         src: 'img/letsdo.png',

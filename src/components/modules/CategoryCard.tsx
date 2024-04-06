@@ -7,7 +7,7 @@ const CategoryCard = ({ category }) => {
       <Link to={`/docs/${category.slug}`} className="card">
         <div className="card__body">
           {/* Replace text with logo image */}
-          <img src={category.logo} alt={category.name} className="card__image" />
+          <img src={`/Lets-Do-Wiki/img/logo/${category.logo}`} alt={category.name} className="card__image" />
           <div className="card__title">{category.name}</div>
         </div>
       </Link>
