@@ -13,7 +13,7 @@ import Image from '@site/src/components/modules/Image';
 
 The block has two input slots: One will usually be used for rennet, the other one for milk.
 
-<img src="https://github.com/satisfyu/Meadow/assets/65647523/3f3aebe7-dda2-486e-bd37-9df3a692aa4e.png" alt="silo" align="right" width="325" height="150" style="margin-right:20px;">
+<img src="/Lets-Do-Wiki/img/textures/meadow/image/cheese_press_gui.png" alt="silo" align="right" width="325" height="150" style={{marginRight: spacing + 'em'}} ">
 
 
 Once you've placed the ingredients needed for the respective recipe into the corresponding input slots, it takes around a minute for the pressing process to complete - the crafted cheese wheel then appears in the output slot.
