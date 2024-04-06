@@ -31,5 +31,3 @@ As a reward for wearing the full set, you become immune to the effects of alcoho
 <br />
 
 Thank you for playing Brewery! ❤️
-
-***

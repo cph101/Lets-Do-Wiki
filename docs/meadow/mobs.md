@@ -10,7 +10,7 @@ import Image from '@site/src/components/modules/Image';
 ## Wooly Cows
 <Icon modId="meadow" imageId="wooly_cow_spawn_egg.png" description="Wooly cows can be sheared for uniquely patterned wool or milked for fresh milk. They naturally spawn in various variants: Umbra, Beige, and Warped." type="mob" />
 
-* **Warped wooly cows**
+* **Warped Cow**
   - **Spawn Location:** They emerge near lit nether portals within the warped forests of the Nether, mirroring the spawn behavior of zombie piglins in the Overworld.
   - **Wool:** Warped Wool
   - **Milk:** Warped milk
@@ -26,7 +26,7 @@ import Image from '@site/src/components/modules/Image';
 
 ***
 
-# Mob Variants
+## Mob Variants:
 
 ## Chicken
 All 3 custom chicken variants can be found in ``#meadow:is_meadow``

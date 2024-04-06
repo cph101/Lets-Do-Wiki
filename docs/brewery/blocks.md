@@ -105,5 +105,3 @@ There are different tiers for the brewing station: Wood, Copper, and Netherite. 
 Even though hops can grow without a rope, they can be further stabilized with the use of one. This additional stabilization allows the hops to grow taller than 2 blocks.
 
 The rope can be attached to both fence posts and tripwire hooks. Ropes can also be stretched diagonally. At a height of more than 3 blocks, vertical ropes are automatically created at valid positions—if these are not needed, they can be easily removed with shears.
-
-***

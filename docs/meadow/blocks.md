@@ -12,9 +12,9 @@ import { BlockList } from '@site/src/components/modules/List';
 
 ### Usage
 
-The block has two input slots: One will usually be used for rennet, the other one for milk.
+The block has two input slots: One will usually be used for [rennet](items.md#rennet), the other one for milk.
 
-Once you've placed the ingredients needed for the respective recipe into the corresponding input slots, it takes around a minute for the pressing process to complete - the crafted cheese wheel then appears in the output slot.
+Once you've placed the ingredients needed for the respective recipe into the corresponding input slots, it takes around a minute for the pressing process to complete - the crafted [cheese wheel](#cheese-wheel) then appears in the output slot.
 
 Depending on which type of milk you use, the produced cheese is different. There are 7 types of cheese. It also offers a built-in recipe book that displays all available recipes and the ingredients required for them.
 
@@ -25,7 +25,7 @@ Depending on which type of milk you use, the produced cheese is different. There
 ***
 
 ## Cooking Cauldron
-<BlockIcon modId="meadow" imageId="cooking_cauldron.png" description="The Cooking Cauldron is your primary crafting station for crafting rennet, delicious meals and other cooked recipes." />
+<BlockIcon modId="meadow" imageId="cooking_cauldron.png" description="The Cooking Cauldron is your primary crafting station for crafting [rennet](items.md#rennet), delicious meals and other cooked recipes." />
 
 ### Usage
 The Cooking Cauldron works similarly to the already known crafting stations in Minecraft: It has 6 input slots for ingredients (top left)one output slot (middle right), and an indicator of whether it is on a hot (lit) surface. Like the Cheese Press, it also offers a built-in recipe book that displays all available recipes and the ingredients required for them.
@@ -126,5 +126,3 @@ export const decorativeBlocks = [
 "description": "Same effect like a usual Lantern."
 }
 ];
-
-***

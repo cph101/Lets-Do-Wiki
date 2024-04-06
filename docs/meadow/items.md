@@ -45,5 +45,3 @@ It offers only a little protection, but you'll look fabulous!
 <br />
 
 Thank you for playing Brewery! ❤️
-
-***
