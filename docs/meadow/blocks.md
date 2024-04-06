@@ -4,6 +4,7 @@ sidebar_position: 2
 
 import { BlockIcon } from '@site/src/components/modules/Icon';
 import Image from '@site/src/components/modules/Image';
+import { BlockList } from '@site/src/components/modules/List';
 
 # Blocks
 ## Cheese Press
@@ -89,5 +90,39 @@ In wheel form, they can be placed as blocks or in cheese racks. When in block fo
 ## Decorative Blocks
 <BlockIcon modId="meadow" imageId="camera.png" description="Of course, there are also some decorative blocks. Some of them, such as the camera, door mat, or fire logs, have no further use other than as a decorative element." />
 
+<BlockList modId="meadow" list={decorativeBlocks} />
+
+export const decorativeBlocks = [
+{
+"name": "Can",
+"imageId": "can.png",
+"description": "Serves as storage for milk and water."
+},
+{
+"name": "Flower Box",
+"imageId": "flower_box.png",
+"description": "Can be decorated with 2 small flowers."
+},
+{
+"name": "Flower Pot",
+"imageId": "flower_pot.png",
+"description": "Can be decorated with 1 small flower."
+},
+{
+"name": "Big Flower Pot",
+"imageId": "flower_pot_big.png",
+"description": "Can be decorated with big flowers."
+},
+{
+"name": "Wheelbarrow",
+"imageId": "wheelbarrow.png",
+"description": "Can be decorated with big flowers."
+},
+{
+"name": "Oil Lantern",
+"imageId": "oil_lantern.png",
+"description": "Same effect like a usual Lantern."
+}
+];
 
 ***
