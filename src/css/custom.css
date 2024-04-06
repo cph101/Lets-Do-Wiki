@@ -36,3 +36,8 @@
   display: block;
   margin-bottom: 0.7em;
 }
+
+.padding-vert--lg,
+.padding-horiz--lg {
+  background-color: #f0f0f0; /* Light gray color */
+}
