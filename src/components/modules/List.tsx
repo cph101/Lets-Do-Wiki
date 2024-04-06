@@ -15,7 +15,7 @@ export function Image({ modId, type, imageUrl }) {
 export default function List({ modId, list, type }) {
     return (
         <div>
-            {itemList.map((item, index) => (
+            {list.map((item, index) => (
                 <span key={index} style={{marginBottom: '4px'}}>
                     <Image modId={modId} type={type} imageUrl={item.imageId}/>
                     <span style={{fontWeight: 'bold'}}>{item.name}</span>
