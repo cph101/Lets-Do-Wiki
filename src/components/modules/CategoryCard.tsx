@@ -1,5 +1,4 @@
 import React from 'react';
-import React from 'react';
 import Link from '@docusaurus/Link';
 
 const CategoryCard = ({ category }) => {
