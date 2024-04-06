@@ -2,7 +2,8 @@ import React from 'react';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
-import CategoryCard from './CategoryCard'; // Import your CategoryCard component
+import CategoryCard from '@site/src/components/modules/CategoryCard';
+
 
 const MainCategoryList = [
   {
