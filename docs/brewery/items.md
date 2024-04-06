@@ -25,13 +25,13 @@ As a reward for wearing the full set, you become immune to the effects of alcoho
     imageId="beer_standard.png"
     description={
         <>
-            The Completionist Banner is awarded to all players who have crafted all Beverages from the Brewery Mod.
-            <br />
+            The Completionist Banner is awarded to all players who have crafted all Beverages from the Brewery Mod.  
             <strong>Note:</strong> To receive the respective Advancements, you need all the items in your inventory at the same time.
         </>
     }
 />
 
+<br />
 <br />
 
 Thank you for playing Brewery! ❤️
