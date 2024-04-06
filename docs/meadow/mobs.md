@@ -13,6 +13,7 @@ import Image from '@site/src/components/modules/Image';
 * **Warped wooly cows**
   - **Spawn Location:** They emerge near lit nether portals within the warped forests of the Nether, mirroring the spawn behavior of zombie piglins in the Overworld.
   - **Wool:** Warped Wool
+  - **Milk:** Warped milk
 * **Highland Cattle**
   - **Spawn Location:** `#meadow:is_meadow`.
   - **Wool:** Beige Patterned Wool
