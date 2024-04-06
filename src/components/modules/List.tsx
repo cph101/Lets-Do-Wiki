@@ -1,23 +1,23 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
 
-export function ItemImage({ modId, imageUrl }) {
+export function Image({ modId, type, imageUrl }) {
   return (
     <span>
       <img
-        src={`/Lets-Do-Wiki/img/textures/${modId}/item/${imageUrl}`}
-        style={{ imageRendering: 'pixelated', width: '22px', marginRight: '4px', marginBottom: "-5px" }}
+        src={`/Lets-Do-Wiki/img/textures/${modId}/${type}/${imageUrl}`}
+        style={{ imageRendering: 'pixelated', width: '50px', marginRight: '4px', marginBottom: "-5px" }}
       />
     </span>
   );
 }
 
-export default function ItemList({ modId, itemList }) {
+export default function List({ modId, list, type }) {
     return (
         <div>
             {itemList.map((item, index) => (
                 <span key={index} style={{marginBottom: '4px'}}>
-                    <ItemImage modId={modId} imageUrl={item.imageId}/>
+                    <Image modId={modId} type={type} imageUrl={item.imageId}/>
                     <span style={{fontWeight: 'bold'}}>{item.name}</span>
                     <span> - </span>
                     <span className="speckyInlineMarkdown"><ReactMarkdown>{item.description}</ReactMarkdown></span>
@@ -26,4 +26,16 @@ export default function ItemList({ modId, itemList }) {
             ))}
         </div>
     );
+}
+
+export function ItemList(props) {
+    return <List {...props} type="item" />;
+}
+
+export function BlockList(props) {
+    return <List {...props} type="block" />;
+}
+
+export function EffectList(props) {
+    return <List {...props} type="effect" />;
 }

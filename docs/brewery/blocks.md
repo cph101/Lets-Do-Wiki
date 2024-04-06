@@ -1,8 +1,7 @@
 ---
 sidebar_position: 1
 ---
-
-import BlockList from '@site/src/components/modules/BlockList';
+import { BlockList } from '@site/src/components/modules/List';
 import { BlockIcon } from '@site/src/components/modules/Icon';
 
 
@@ -11,7 +10,7 @@ import { BlockIcon } from '@site/src/components/modules/Icon';
 ## Wild Crops
 After successfully adding Brewery to your mods, you will be able to discover various new plant species in newly generated chunks. Some of these will be more common, while others will be rarer to find. So keep your eyes open!
 
-<BlockList modId="brewery" itemList={wildCrops} />
+<BlockList modId="brewery" list={wildCrops} />
 
 export const wildCrops = [
   {
@@ -45,7 +44,7 @@ Right-click to close the silo hatch (when open).
 
 The content also dries with the hatch open. When the hatch is closed, the content will not be emptied automatically.
 
-<BlockList modId="brewery" itemList={silos} />
+<BlockList modId="brewery" list={silos} />
 
 export const silos = [
 {

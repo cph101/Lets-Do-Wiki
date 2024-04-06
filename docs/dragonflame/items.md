@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-import ItemList from '@site/src/components/modules/ItemList';
+import { ItemList } from '@site/src/components/modules/List';
 
 # Items
 
