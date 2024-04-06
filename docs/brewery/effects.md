@@ -7,7 +7,7 @@ import { EffectList } from '@site/src/components/modules/List';
 
 # Effects
 
-<BlockList modId="brewery" list={wildCrops} />
+<EffectList modId="brewery" list={wildCrops} />
 
 export const wildCrops = [
   {
