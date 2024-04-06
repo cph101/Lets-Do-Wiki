@@ -14,8 +14,8 @@ export function ItemImage({ modId, imageUrl }) {
 
 export default function BlockIcon({ modId, imageId, description }) {
     return (
-        <div style={{ display: 'flex', alignItems: 'center' }}>
-            <ItemImage modId={modId} imageUrl={imageId} style={{ flexShrink: 0, flexGrow: 1 }}/>
+        <div style={{ display: 'grid', gridTemplateColumns: 'auto 1fr', alignItems: 'center' }}>
+            <ItemImage modId={modId} imageUrl={imageId} />
             <span className="speckyInlineMarkdown" style={{ marginLeft: '8px' }}>
                 <ReactMarkdown>{description}</ReactMarkdown>
             </span>
