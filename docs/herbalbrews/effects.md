@@ -7,67 +7,47 @@ import { EffectList } from '@site/src/components/modules/List';
 
 # Effects
 
-<EffectList modId="brewery" list={wildCrops} />
+<EffectList modId="brewery" list={effects} />
 
-export const wildCrops = [
+export const effects = [
 {
-"name": "Toxic Touch",
-"imageId": "toxictouch.png",
-"description": "Applies Poison to all hit entities."
+"name": "Balanced",
+"imageId": "balanced.png",
+"description": "Grants all players within a 10 block radius ABSORPTION."
 },
 {
-"name": "Renewing Touch",
-"imageId": "renewingtouch.png",
-"description": "Applies Regeneration to all hit entities."
+"name": "Excavation",
+"imageId": "excavation.png",
+"description": "Increases attack damage as well as mining and movement speed."
 },
 {
-"name": "Protective Touch",
-"imageId": "protectivetouch.png",
-"description": "Applies Absorbtion to all hit entities."
+"name": "Fortune",
+"imageId": "fortune.png",
+"description": "Increases LUCK."
 },
 {
-"name": "Healing Touch",
-"imageId": "healingtouch.png",
-"description": "Heals all hit entities."
+"name": "Poisonous",
+"imageId": "poisonous.png",
+"description": "Poisons all enemies within a 5 block radius."
 },
 {
-"name": "Saturated",
-"imageId": "saturated.png",
-"description": "Prevents you from getting too hungry too quickly."
+"name": "Renewal",
+"imageId": "renewal.png",
+"description": "Increases ABSORPTION, REGENERATION and HEALTH_BOOST."
 },
 {
-"name": "Haley",
-"imageId": "haley.png",
-"description": "You can fly. At least for a short period of time."
+"name": "Revitalizing",
+"imageId": "revitalizing.png",
+"description": "Grants all players within a 10 block radius REGENERATION."
 },
 {
-"name": "Harddrinking",
-"imageId": "harddrinking.png",
-"description": "You're immune to alcohol. Sounds like a dream!"
+"name": "Tough",
+"imageId": "tough.png",
+"description": "Increases ABSORPTION, REGENERATION and DAMAGE_RESISTANCE."
 },
 {
-"name": "Drunk",
-"imageId": "drunk.png",
-"description": "You're drunk."
-},
-{
-"name": "Blackout",
-"imageId": "blackout.png",
-"description": "You're totally drunk."
-},
-{
-"name": "Pint Charisma",
-"imageId": "pintcharisma.png",
-"description": "10% discount while trading with villagers."
-},
-{
-"name": "Partystarter",
-"imageId": "partystarter.png",
-"description": "Ready to start the Party? Emits Firework Particles when hitting entities - also deals a small amount of damage."
-},
-{
-"name": "Snow White",
-"imageId": "snowwhite.png",
-"description": "Animals flock to your side, enchanted by your presence."
+"name": "Feral",
+"imageId": "feral.png",
+"description": "Increases armor and attack damage."
 }
 ];

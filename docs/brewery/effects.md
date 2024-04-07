@@ -7,9 +7,9 @@ import { EffectList } from '@site/src/components/modules/List';
 
 # Effects
 
-<EffectList modId="brewery" list={wildCrops} />
+<EffectList modId="brewery" list={effects} />
 
-export const wildCrops = [
+export const effects = [
 {
 "name": "Toxic Touch",
 "imageId": "toxictouch.png",
