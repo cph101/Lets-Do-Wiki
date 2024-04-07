@@ -22,7 +22,7 @@ Flasks are crafted in a Brewing Cauldron.
 
 ## Ingredients
 
-<BlockList modId="herbalbrews" list={ingredients} />
+<ItemList modId="herbalbrews" list={ingredients} />
 
 export const ingredients = [
 {
