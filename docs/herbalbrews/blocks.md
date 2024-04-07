@@ -26,8 +26,8 @@ export const plants = [
 "description": "Can be decorated with 2 small flowers."
 },
 {
-"name": "Wild Coffe",
-"imageId": "wild_coffe_plant.png",
+"name": "Wild Coffee",
+"imageId": "wild_coffee_plant.png",
 "description": "Can be decorated with 1 small flower."
 },
 {
