@@ -26,6 +26,16 @@ const MainCategoryList = [
       </>
     ),
   },
+  {
+      name: 'Herbal Brews',
+      slug: 'herbalbrews',
+      logo: 'herbalbrews.png',
+      description: (
+        <>
+          Find answers to frequently asked questions about Docusaurus and its usage.
+        </>
+      ),
+    }
   // Add more main categories as needed
 ];
 
