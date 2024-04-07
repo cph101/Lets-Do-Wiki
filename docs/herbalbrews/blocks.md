@@ -12,7 +12,7 @@ import Image from '@site/src/components/modules/Image';
 ## Flowers and Wild Crops
 After successfully adding HerbalBrews to your mods, you will be able to discover various new plant species in newly generated chunks. Some of these will be more common, while others will be rarer to find. So keep your eyes open!
 
-<BlockList modId="meadow" list={plants} />
+<BlockList modId="herbalbrews" list={plants} />
 
 export const plants = [
 {

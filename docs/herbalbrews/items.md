@@ -1,28 +1,74 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 import { ItemList } from '@site/src/components/modules/List';
 import { ItemIcon } from '@site/src/components/modules/Icon';
 
 # Items
-## Food
-<ItemIcon modId="brewery" imageId="pretzel.png" description="What would the Brewfest be without food? There is a variety of food inspired by the Bavarian Oktoberfest. Most of it can be easily made in the Smoker. For others, one must get a bit more creative." />
+## Tea
+<ItemIcon modId="herbalbrews" imageId="jug.png" description="The core of this mod: The various variations of tea." />
 
-Want to slice your chicken? Throw it on a Stonecutter!
-Need Mashed Potatoes? Toss them on a Stonecutter as well!
+Each tea offers a different effect. Some types of tea can be placed for decoration purposes.
+Teas are crafted in a [Tea Kettle](blocks.md#tea-kettle).
 
-## Armor
-<ItemIcon modId="brewery" imageId="brewfest_hat.png" description="And of course, everyone attending the Brewfest should be properly dressed. The corresponding clothing can be obtained from a Bartender Villager. This villager uses a Barblock as a workstation." />
+***
 
-The piece of clothing he sells is random, so you might well need to visit several traders to get the complete set.
+## Flasks
+<ItemIcon modId="herbalbrews" imageId="health_flask_big.png" description="Flasks behave similarly to Potions - they are drinkable and mainly provide bonuses to damage and armor. There are both small and large flasks; however, these only differ in the duration of the effect." />
+Flasks are crafted in a Brewing Cauldron.
 
-As a reward for wearing the full set, you become immune to the effects of alcohol. Woohoo!
+***
+
+## Ingredients
+
+<BlockList modId="herbalbrews" list={ingredients} />
+
+export const ingredients = [
+{
+"name": "Coffee Beans",
+"imageId": "coffee_beans.png",
+"description": "Can be obtained by harvesting wild coffee. Usable as seeds for Coffee Plants."
+},
+{
+"name": "Lavender Blossom",
+"imageId": "lavender.png",
+"description": "Can be obtained by harvesting Lavender with shears."
+},
+{
+"name": "Tea Blossoms",
+"imageId": "tea_blossom.png",
+"description": "Can be obtained by harvesting flowers with shears. Usable as seeds for Tea Plants."
+},
+{
+"name": "Green Tea Leafs",
+"imageId": "green_tea_leaf.png",
+"description": "Can be obtained by harvesting flowers with shears. Usable as seeds for Tea Plants."
+},
+{
+"name": "Dried Green Tea",
+"imageId": "dried_green_tea.png",
+"description": "Can be obtained by drying 9 Green Tea Leafs."
+},
+{
+"name": "Dried Black Tea",
+"imageId": "dried_black_tea.png",
+"description": "Can be obtained by drying a Green Tea Leaf Block."
+},
+{
+"name": "Dried Oolong Tea",
+"imageId": "dried_oolong_tea.png",
+"description": "Can be obtained by drying a Mixed Tea Leaf Block."
+}
+];
+
+***
 
 ## Completionist Banner
-<ItemIcon modId="brewery" imageId="beer_standard.png" description="The Completionist Banner is awarded to all players who have crafted all Beverages from the Brewery Mod.\n**Note:** To receive the respective Advancements, you need all the items in your inventory at the same time." />
+<ItemIcon modId="herbalbrews" imageId="herbalbrews_standard.png" description="The Completionist Banner is awarded to all players who have crafted all Tea Variants from the HerbalBrews Mod." />
+
+**Note:** To receive the respective Advancements, you need all the items in your inventory at the same time.
 
 <br />
-<br />
 
-Thank you for playing Brewery! ❤️
+Thank you for playing HerbalBrews! ❤️
