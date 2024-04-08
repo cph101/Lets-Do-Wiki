@@ -65,7 +65,9 @@ const config: Config = {
           indexName: 'team-let-s-doio',
 
           // Optional: see doc section below
-          contextualSearch: true
+          contextualSearch: true,
+
+          ignoreCanonicalTo: true
         },
     colorMode: {
           defaultMode: 'dark',
