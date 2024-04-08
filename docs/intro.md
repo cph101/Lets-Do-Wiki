@@ -20,9 +20,10 @@ Here you can find some answers to the most frequently asked questions and a plai
 | **YOU**       | For downloading and playing                       |
 | MissLilitu    | For constant support, guideline and art decisions |
 | Satisfy       | For the creation of the mods                      |
-| BaumeisterJo  | For Development and Contributing                  |
 | Cristelknight | For Development and Contributing                  |
-| EC.           | For Development and Contributing                  |
+| BaumeisterJo  | For Development and Contributing                  |
+| EC            | For Development and Contributing                  |
+| cph101        | For Development and Contributing                  |
 | Ninidaj       | For supporting me and the whole Let's Do Series   |
 | awoolanche    | For being awoolanche                              |
 | tera          | For being tera                                    |
