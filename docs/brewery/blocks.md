@@ -75,7 +75,8 @@ The brewing station has no GUI and only operates through direct interaction. It 
 * Oven
 * Timer
 * Whistle
-  The Kettle is the centerpiece: That's where all ingredients are placed. The Oven serves as a fire source and needs coal. The other parts are responsible for the minigame.
+ 
+The Kettle is the centerpiece: That's where all ingredients are placed. The Oven serves as a fire source and needs coal. The other parts are responsible for the minigame.
 
 After the correct ingredients have been placed, the kettle is filled with water, and the oven is lit, the minigame begins. It lasts about 45 seconds and during this time various events can occur that require a direct action from you (or your teammates). The brewing process is represented audiovisually.
 
