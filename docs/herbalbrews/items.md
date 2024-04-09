@@ -48,17 +48,17 @@ export const ingredients = [
 {
 "name": "Dried Green Tea",
 "imageId": "dried_green_tea.png",
-"description": "Can be obtained by drying 9 Green Tea Leafs."
+"description": "Can be obtained by [drying](drying.md) a Green Tea Leaf Block"
 },
 {
 "name": "Dried Black Tea",
 "imageId": "dried_black_tea.png",
-"description": "Can be obtained by drying a Green Tea Leaf Block."
+"description": "Can be obtained by [drying](drying.md) a Dried Green Tea Leaf Block."
 },
 {
 "name": "Dried Oolong Tea",
 "imageId": "dried_oolong_tea.png",
-"description": "Can be obtained by drying a Mixed Tea Leaf Block."
+"description": "Can be obtained by [drying](drying.md) a Mixed Tea Leaf Block."
 }
 ];
 
