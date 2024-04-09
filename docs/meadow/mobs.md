@@ -33,13 +33,13 @@ All 3 custom chicken variants can be found in ``#meadow:is_meadow``
 
 ## Cow
 
-* **Cookie:** ``#meadow:is_meadow``
-* **Dairy:** ``#meadow:is_meadow``
+* **Cookie:** `#meadow:is_meadow`
+* **Dairy:** `#meadow:is_meadow`
 * **Cream:** Spawns in the same biomes as the Vanilla Cow.
 * **Pinto:** Spawns in the same biomes as the Vanilla Cow.
-* **Dark:** Spawns in ``#meadow:spawns_dark_cow`` which contains ``#minecraft:is_forest`` and ``#minecraft:has_structure/woodland_mansion``.
-* **Albino:** Spawns in ``#meadow:spawns_bear`` which contains the same tags as the dark cow and additionally ``#minecraft:is_taiga``.
-* **Sunset:** Spawns in ``#meadow:spawns_sunset_cow`` which contains ``#minecraft:is_savanna`` and ``#minecraft:has_structure/village_savanna``.
+* **Dark:** Spawns in `#meadow:spawns_dark_cow` which contains `#minecraft:is_forest` and `#minecraft:has_structure/woodland_mansion`.
+* **Albino:** Spawns in `#meadow:spawns_bear` which contains the same tags as the dark cow and additionally `#minecraft:is_taiga`.
+* **Sunset:** Spawns in `#meadow:spawns_sunset_cow` which contains `#minecraft:is_savanna` and `#minecraft:has_structure/village_savanna`.
 
 ## Sheep
 

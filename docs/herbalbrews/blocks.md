@@ -18,27 +18,27 @@ export const plants = [
 {
 "name": "Hibiscus",
 "imageId": "hibiscus.png",
-"description": "Serves as storage for milk and water."
+"description": "Spawns mainly in Jungle Biomes and its sub-variants using the `#is_jungle` tag. Hibiscus can be used as a decorative element or for crafting Hibiscus Tea."
 },
 {
 "name": "Lavender",
 "imageId": "lavender.png",
-"description": "Can be decorated with 2 small flowers."
+"description": "Spawns mainly in mountainous Biomes using the `#is_hills` and `#is_mountain` tags. Lavender can be used as a decorative element. When you break it with Shears you will get Lavender Blossoms which is needed for crafting Lavender Tea."
 },
 {
 "name": "Wild Coffee",
 "imageId": "wild_coffee_plant.png",
-"description": "Can be decorated with 1 small flower."
+"description": "Spawns mainly in Jungle Biomes and its sub-variants using the `#is_jungle` tag. Break it to get Coffee Beans."
 },
 {
 "name": "Wild Rooibos",
 "imageId": "wild_rooibos_plant.png",
-"description": "Can be decorated with big flowers."
+"description": "Spawns mainly in Savanna Biomes and its sub-variants using the `#is_savanna` tag. Break it to get Rooibos Leafs."
 },
 {
 "name": "Wild Yerba Mate",
 "imageId": "wild_yerba_mate_plant.png",
-"description": "Can be decorated with big flowers."
+"description": "Spawns mainly in Jungle Biomes and its sub-variants using the `#is_jungle` tag. Break it to get Yerba Mate Leafs."
 }
 ];
 
