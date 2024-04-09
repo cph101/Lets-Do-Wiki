@@ -16,7 +16,7 @@ Right-click on an empty space to place the respective item. Right click an occup
 
 **Note:** Not all items and blocks can be placed in all storage blocks.
 
-
+***
 
 ## Completionist Banner
 <ItemIcon modId="bakery" imageId="bakery_standard.png" description="The Completionist Banner is awarded to all players who have crafted every Baked Good from the Bakery Mod." />

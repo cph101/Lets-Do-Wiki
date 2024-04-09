@@ -12,6 +12,8 @@ import Icon from '@site/src/components/modules/Icon';
 
 It ensures that your food exhaustion levels are managed, especially when they’re injured but not healing naturally. By reducing food exhaustion, it helps you to stay healthy and active during adventures, even in tough situations. It’s a useful Effect for maintaining energy levels and enjoying the game without constantly worrying about hunger.
 
+***
+
 ## Sweets
 <Icon modId="bakery" imageId="sweets.png" description="The „SweetsEffect“ boosts your attributes, such as movement speed, attack speed, and attack damage, making you more effective in navigating and fighting." type="effect"/>
 
