@@ -28,6 +28,26 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+[data-theme='light'] .DocSearch {
+  --docsearch-muted-color: #705e21; /* Adjusted muted color */
+  --docsearch-container-background: rgba(94, 100, 112, 0.7); /* Adjusted container background color */
+  --docsearch-modal-background: #e5c579; /* Adjusted modal background color */
+  --docsearch-searchbox-background: #d4aa4a; /* Adjusted search box background color */
+  --docsearch-searchbox-focus-background: #ffffff; /* Adjusted search box focus background color */
+  --docsearch-hit-background: #ffffff; /* Adjusted hit background color */
+  --docsearch-footer-background: #ffffff; /* Adjusted footer background color */
+}
+
+[data-theme='dark'] .DocSearch {
+  --docsearch-muted-color: #7f2d16; /* Adjusted muted color */
+  --docsearch-container-background: rgba(47, 55, 69, 0.7); /* Adjusted container background color */
+  --docsearch-modal-background: #2f3745; /* Adjusted modal background color */
+  --docsearch-searchbox-background: #2f3745; /* Adjusted search box background color */
+  --docsearch-searchbox-focus-background: #000000; /* Adjusted search box focus background color */
+  --docsearch-hit-background: #f4cf5e; /* Adjusted hit background color */
+  --docsearch-footer-background: #f7d774; /* Adjusted footer background color */
+}
+
 .speckyInlineMarkdown * {
   display: inline;
 }
