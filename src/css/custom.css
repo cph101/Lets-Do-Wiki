@@ -38,6 +38,7 @@
 
 [data-theme='dark'] .DocSearch {
     /* Search box */
+    --docsearch-container-background: var(--ifm-color-primary-dark);
     --docsearch-searchbox-background: var(--ifm-background-color);
     --docsearch-searchbox-focus-background: var(--ifm-color-black);
     /* Hit */
