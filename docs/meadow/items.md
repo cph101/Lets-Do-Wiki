@@ -22,9 +22,9 @@ Alpine Salt is one of the basic ingredients for cheese making.
 ***
 
 ## Watering Can
-<ItemIcon modId="meadow" imageId="wooden_watering_can.png" description="The Watering Can is a renewable source for Bone Meal. It offers the same functions as the latter and has a maximum usage of 4." />
+<ItemIcon modId="meadow" imageId="wooden_watering_can.png" description="The Watering Can is a renewable source for Bone Meal. It offers the same functions as the latter." />
 
-After the Watering Can has been used 4 times, it can be refilled at a water source.
+After the Watering Can has been emptied, it can be refilled at a water source.
 
 ***
 
