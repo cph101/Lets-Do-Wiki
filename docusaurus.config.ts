@@ -59,10 +59,7 @@ const config: Config = {
           appId: 'GQS7PRJCVR',
           apiKey: '096a1ff6d5aa10a0b108b3478062a0ae',
           indexName: 'team-let-s-doio',
-          contextualSearch: false,
-          searchParameters: {
-                            facetFilters: ['language:en']
-                          }
+          contextualSearch: false
         },
     colorMode: {
           defaultMode: 'dark',
