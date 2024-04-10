@@ -67,7 +67,7 @@ const config: Config = {
           // Optional: see doc section below
           contextualSearch: false,
           searchParameters: {
-                            facetFilters: ['language:en-US'],
+                            facetFilters: ['language:en'],
                             attributesToRetrieve: ['*'],
                             attributesToSnippet: ['*'],
                           },
