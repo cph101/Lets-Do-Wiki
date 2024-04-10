@@ -68,6 +68,8 @@ const config: Config = {
           contextualSearch: false,
           searchParameters: {
                             facetFilters: ['language:en-US'],
+                            attributesToRetrieve: ['*'],
+                            attributesToSnippet: ['*'],
                           },
 
           // Optional: path for search page that enabled by default (`false` to disable it)
