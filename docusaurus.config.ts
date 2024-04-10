@@ -61,19 +61,8 @@ const config: Config = {
 
           // Public API key: it is safe to commit it
           apiKey: '096a1ff6d5aa10a0b108b3478062a0ae',
-
           indexName: 'team-let-s-doio',
-
-          // Optional: see doc section below
           contextualSearch: false,
-          searchParameters: {
-                            facetFilters: ['language:en'],
-                            attributesToRetrieve: ['*'],
-                            attributesToSnippet: ['*'],
-                          },
-
-          // Optional: path for search page that enabled by default (`false` to disable it)
-          searchPagePath: 'search',
         },
     colorMode: {
           defaultMode: 'dark',
