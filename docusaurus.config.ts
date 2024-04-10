@@ -65,7 +65,10 @@ const config: Config = {
           indexName: 'team-let-s-doio',
 
           // Optional: see doc section below
-          contextualSearch: true,
+          contextualSearch: false,
+          searchParameters: {
+                            facetFilters: ['language:en-US'],
+                          },
 
           // Optional: path for search page that enabled by default (`false` to disable it)
           searchPagePath: 'search',
