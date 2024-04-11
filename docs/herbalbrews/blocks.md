@@ -38,7 +38,7 @@ export const plants = [
 {
 "name": "Wild Yerba Mate",
 "imageId": "wild_yerba_mate_plant.png",
-"description": "Spawns mainly in Jungle Biomes and its sub-variants using the `#is_jungle` tag. Break it to get Yerba Mate Leafs."
+"description": "Spawns mainly in mountainous Biomes using the `#is_hills` and `#is_mountain` tags. Break it to get Yerba Mate Leafs."
 }
 ];
 
