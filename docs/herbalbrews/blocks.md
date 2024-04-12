@@ -47,7 +47,7 @@ export const plants = [
 ***
 
 ## Stove
-<BlockIcon modId="herbalbrews" imageId="stove.png" description="Used for heating up your Tea Kettle." />
+<BlockIcon modId="herbalbrews" imageId="stove.png" description="Used for heating up your Tea Kettle." pixelated=false />
 
 ***
 
