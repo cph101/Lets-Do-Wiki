@@ -26,7 +26,7 @@ Plains Meadow Sunflower_plains River Taiga and all sub-variants Jungle and all s
 ***
 
 ## Stove
-<BlockIcon modId="bakery" imageId="stove.png" description="The Stove is your primary crafting station for making pastries and bread. It also serves as a heat source for the Cooking Pot." pixelated=false />
+<BlockIcon modId="bakery" imageId="stove.png" description="The Stove is your primary crafting station for making pastries and bread. It also serves as a heat source for the Cooking Pot." pixelated=„false“ />
 
 ### Usage
 The block works similarly to the already known crafting stations in Minecraft: It has 3 input slots for ingredients (top left), one input slot for a fuel source (bottom left), and one output slot (middle right). It also offers a built-in recipe book that displays all available recipes and the ingredients required for them.
@@ -50,7 +50,7 @@ Once you've placed the ingredients needed for the respective recipe into the cor
 ***
 
 ## Caking Station
-<BlockIcon modId="bakery" imageId="caking_station.png" description="The Caking Station is mainly used to prepare cakes, cupcakes, and cookies." pixelated=false />
+<BlockIcon modId="bakery" imageId="caking_station.png" description="The Caking Station is mainly used to prepare cakes, cupcakes, and cookies." pixelated=„false“ />
 
 ### Usage
 The block has no interface but functions solely through direct interaction. Certain items each lead to a different result.
