@@ -50,7 +50,7 @@ Once you've placed the ingredients needed for the respective recipe into the cor
 ***
 
 ## Caking Station
-<BlockIcon modId="bakery" imageId="caking_station.png" description="The Caking Station is mainly used to prepare cakes, cupcakes, and cookies." />
+<BlockIcon modId="bakery" imageId="caking_station.png" description="The Caking Station is mainly used to prepare cakes, cupcakes, and cookies." pixelated=false />
 
 ### Usage
 The block has no interface but functions solely through direct interaction. Certain items each lead to a different result.
