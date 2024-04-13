@@ -1,16 +1,11 @@
 /* styles.module.css */
 
 .features {
-  display: flex;
-  justify-content: space-around; /* Distribute items evenly */
-  flex-wrap: wrap; /* Allow items to wrap to next line if needed */
   padding: 2rem 0;
 }
 
-/* Adjustments for small screens */
-@media (max-width: 767px) {
-  .features {
-    flex-direction: column; /* Stack items vertically on small screens */
-    align-items: center; /* Center items horizontally */
-  }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
 }
