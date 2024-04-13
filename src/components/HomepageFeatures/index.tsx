@@ -1,6 +1,7 @@
 /* index.tsx */
 
 import React from 'react';
+import { useEffect } from 'react';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
@@ -113,9 +114,6 @@ function MainCategory({name, description, slug}: {name: string, description: JSX
     </div>
   );
 }
-
-import React, { useEffect } from 'react';
-import styles from './HomepageCategories.module.css'; // Assuming you're using CSS modules
 
 export default function HomepageCategories(): JSX.Element {
   useEffect(() => {
