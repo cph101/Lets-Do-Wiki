@@ -1,25 +1,24 @@
+/* styles.module.css */
+
 .features {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Automatische Anordnung von Spalten */
+  grid-gap: 20px; /* Abstand zwischen den Karten */
   align-items: center;
   padding: 2rem 0;
-  width: 100%; /* Verwende 100% der Breite */
+}
+/* Media Query für große Bildschirme (z.B. Desktops) */
+@media (min-width: 768px) {
+  .features {
+    flex-wrap: wrap; /* Elemente können bei Bedarf umbrechen */
+    justify-content: space-between; /* Elemente gleichmäßig im Container verteilen */
+  }
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap; /* Erlaube den Umbruch von Elementen auf mehrere Zeilen */
-  justify-content: space-around; /* Zentriere die Kategoriekarten */
-}
-
-.col {
-  flex: 0 0 calc(50% - 2rem); /* Setze die Breite auf 50%, minus Padding */
-  max-width: calc(50% - 2rem); /* Begrenze die maximale Breite */
-  margin-bottom: 2rem; /* Füge etwas Platz unten hinzu */
-}
-
-@media screen and (max-width: 768px) {
-  .col {
-    flex: 0 0 calc(100% - 2rem); /* Auf eine Spalte ändern, wenn der Bildschirm kleiner als 768px ist */
-    max-width: calc(100% - 2rem); /* Maximale Breite auf 100% setzen */
+/* Media Query für kleine Bildschirme (z.B. Handys) */
+@media (max-width: 767px) {
+  .features {
+    flex-direction: column; /* Elemente in einer Spalte anordnen */
+    align-items: center; /* Elemente zentrieren */
   }
 }

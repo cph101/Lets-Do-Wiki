@@ -1,19 +1,21 @@
+/* category.card.css */
+
 .card__body {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center content horizontally */
+  align-items: center; /* Zentrieren des Inhalts horizontal */
 }
 
 .card__image {
-  max-width: 55%; /* Adjust maximum width of the logo */
-  height: auto;
+  width: 100%; /* Logo nimmt die volle Breite der Karte ein */
+  height: auto; /* Höhe automatisch anpassen */
 }
 
 .card__title {
   margin: 0;
-  margin-top: 10px; /* Add some space between logo and category name */
+  margin-top: 10px; /* Abstand zwischen Logo und Kategorienname hinzufügen */
 }
 
 .card:hover {
-  box-shadow: 0 0 8px var(--ifm-color-primary-dark); /* Apply the custom outline color */
+  box-shadow: 0 0 8px var(--ifm-color-primary-dark); /* Benutzerdefinierte Konturfarbe anwenden */
 }

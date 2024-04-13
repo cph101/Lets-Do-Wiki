@@ -4,6 +4,7 @@ import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 import CategoryCard from '@site/src/components/modules/CategoryCard';
 
+
 const MainCategoryList = [
   {
     name: 'Meadow',
@@ -26,15 +27,15 @@ const MainCategoryList = [
     ),
   },
   {
-    name: 'Herbal Brews',
-    slug: 'herbalbrews',
-    logo: 'herbalbrews.png',
-    description: (
-      <>
-        Find answers to frequently asked questions about Docusaurus and its usage.
-      </>
-    ),
-  }
+      name: 'Herbal Brews',
+      slug: 'herbalbrews',
+      logo: 'herbalbrews.png',
+      description: (
+        <>
+          Find answers to frequently asked questions about Docusaurus and its usage.
+        </>
+      ),
+    }
   // Add more main categories as needed
 ];
 
@@ -56,7 +57,7 @@ export default function HomepageCategories(): JSX.Element {
   return (
     <section className={styles.features}>
       <div className="container">
-        <div className={clsx('row', styles.row)}>
+        <div className="row">
           {MainCategoryList.map((category, idx) => (
             <CategoryCard key={idx} category={category} />
           ))}
