@@ -2,7 +2,6 @@
 
 .features {
   padding: 2rem 0;
-  max-height: 400px; /* Set a maximum height for the container */
   overflow: auto; /* Allow scrolling if content exceeds the height */
 }
 
