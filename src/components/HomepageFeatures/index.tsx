@@ -1,7 +1,6 @@
 /* index.tsx */
 
 import React from 'react';
-import { useEffect } from 'react';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
@@ -116,43 +115,6 @@ function MainCategory({name, description, slug}: {name: string, description: JSX
 }
 
 export default function HomepageCategories(): JSX.Element {
-  useEffect(() => {
-    const calculateWidthInCentimeters = () => {
-      // Get the viewport width in pixels
-      const viewportWidthPixels = window.innerWidth;
-
-      // Convert the viewport width from pixels to centimeters
-      const viewportWidthCentimeters = viewportWidthPixels / window.devicePixelRatio / 2.54;
-
-      // Define the threshold width in centimeters
-      const thresholdWidthCentimeters = 7; // Adjust this value as needed
-
-      // Check if the viewport width is smaller than the threshold
-      const isViewportSmallerThanThreshold = viewportWidthCentimeters < thresholdWidthCentimeters;
-
-      // Get the grid element
-      const gridElement = document.querySelector(`.${styles.grid}`);
-
-      // Update the grid template columns based on the viewport width
-      if (gridElement && isViewportSmallerThanThreshold) {
-        gridElement.style.gridTemplateColumns = '1fr';
-      } else {
-        gridElement.style.gridTemplateColumns = '1fr 1fr'; // Default value
-      }
-    };
-
-    // Call the function to calculate and apply the styles initially
-    calculateWidthInCentimeters();
-
-    // Re-calculate and re-apply the styles whenever the window is resized
-    window.addEventListener('resize', calculateWidthInCentimeters);
-
-    // Cleanup function to remove the resize listener
-    return () => {
-      window.removeEventListener('resize', calculateWidthInCentimeters);
-    };
-  }, []); // Run only once when the component mounts
-
   return (
     <section className={styles.features}>
       <div className={styles.grid}>
