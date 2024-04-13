@@ -16,5 +16,3 @@ const CategoryCard = ({ category }) => {
 };
 
 export default CategoryCard;
-
-//  Das Logo solltebestimen, wie groß die category card ist. aber ich weiß icht wie genau das funktionieren soll. Ich habe dafür schon einigen code, aber das ist noch lange nicht fertig:

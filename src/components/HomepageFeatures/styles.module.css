@@ -7,13 +7,12 @@
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 1em;
 }
 
-@media (max-width: 30vw) {
-    /* If the viewport width is at most 30% of the total viewport width */
-    .grid {
-        grid-template-columns: 1fr;
-    }
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr; /* Change to one column when width is smaller than 768px */
+  }
 }
