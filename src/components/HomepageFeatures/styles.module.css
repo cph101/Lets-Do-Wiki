@@ -1,21 +1,6 @@
-/* styles.module.css */
-
 .features {
+  display: flex;
+  align-items: center;
   padding: 2rem 0;
-  overflow: auto; /* Allow scrolling if content exceeds the height */
+  width: 50%;
 }
-
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1em;
-  overflow-x: hidden;
-  overflow-y: hidden;
-}
-
-@media (max-width: 30em) {
-    /* If the screen width is at least 30em (adjust as needed) */
-    .grid {
-        grid-template-columns: 1fr;
-    }
-  }
