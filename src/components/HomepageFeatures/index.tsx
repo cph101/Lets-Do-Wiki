@@ -7,35 +7,95 @@ import CategoryCard from '@site/src/components/modules/CategoryCard';
 
 const MainCategoryList = [
   {
-    name: 'Meadow',
-    slug: 'meadow',
-    logo: 'meadow.png',
-    description: (
-      <>
-        Start your journey with Docusaurus and learn how to get started with your documentation.
-      </>
-    ),
-  },
-  {
-    name: 'Brewery',
-    slug: 'brewery',
-    logo: 'brewery.png',
-    description: (
-      <>
-        Find answers to frequently asked questions about Docusaurus and its usage.
-      </>
-    ),
-  },
-  {
-      name: 'Herbal Brews',
-      slug: 'herbalbrews',
-      logo: 'herbalbrews.png',
+      name: 'Meadow',
+      slug: 'meadow',
+      logo: 'meadow.png',
+      description: (
+        <>
+          Start your journey with Docusaurus and learn how to get started with your documentation.
+        </>
+      ),
+    },
+    {
+      name: 'Brewery',
+      slug: 'brewery',
+      logo: 'brewery.png',
       description: (
         <>
           Find answers to frequently asked questions about Docusaurus and its usage.
         </>
       ),
-    }
+    },
+    {
+        name: 'Herbal Brews',
+        slug: 'herbalbrews',
+        logo: 'herbalbrews.png',
+        description: (
+          <>
+            Find answers to frequently asked questions about Docusaurus and its usage.
+          </>
+        ),
+      },
+      {
+          name: 'Meadow',
+          slug: 'meadow',
+          logo: 'meadow.png',
+          description: (
+            <>
+              Start your journey with Docusaurus and learn how to get started with your documentation.
+            </>
+          ),
+       },
+        {
+          name: 'Brewery',
+          slug: 'brewery',
+          logo: 'brewery.png',
+          description: (
+            <>
+              Find answers to frequently asked questions about Docusaurus and its usage.
+            </>
+          ),
+        },
+        {
+            name: 'Herbal Brews',
+            slug: 'herbalbrews',
+            logo: 'herbalbrews.png',
+            description: (
+              <>
+                Find answers to frequently asked questions about Docusaurus and its usage.
+              </>
+            ),
+          },
+          {
+              name: 'Meadow',
+              slug: 'meadow',
+              logo: 'meadow.png',
+              description: (
+                <>
+                  Start your journey with Docusaurus and learn how to get started with your documentation.
+                </>
+              ),
+            },
+            {
+              name: 'Brewery',
+              slug: 'brewery',
+              logo: 'brewery.png',
+              description: (
+                <>
+                  Find answers to frequently asked questions about Docusaurus and its usage.
+                </>
+              ),
+            },
+            {
+                name: 'Herbal Brews',
+                slug: 'herbalbrews',
+                logo: 'herbalbrews.png',
+                description: (
+                  <>
+                    Find answers to frequently asked questions about Docusaurus and its usage.
+                  </>
+                ),
+              }
   // Add more main categories as needed
 ];
 
