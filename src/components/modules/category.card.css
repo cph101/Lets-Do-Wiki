@@ -1,19 +1,21 @@
+/* category.card.css */
+
 .card__body {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center content horizontally */
+  align-items: center;
 }
 
 .card__image {
-  max-width: 55%; /* Adjust maximum width of the logo */
+  max-width: 100%; /* Ensure logo doesn't stretch too much */
   height: auto;
 }
 
 .card__title {
   margin: 0;
-  margin-top: 10px; /* Add some space between logo and category name */
+  margin-top: 10px;
 }
 
 .card:hover {
-  box-shadow: 0 0 8px var(--ifm-color-primary-dark); /* Apply the custom outline color */
+  box-shadow: 0 0 8px var(--ifm-color-primary-dark);
 }
