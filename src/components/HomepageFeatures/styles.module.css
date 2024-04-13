@@ -9,7 +9,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1em;
-  max-height: 100%; /* Ensure the grid doesn't exceed the container's height */
 }
 
 @media screen and (max-width: 30em) {
