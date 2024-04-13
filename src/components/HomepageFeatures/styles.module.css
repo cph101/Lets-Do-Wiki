@@ -8,19 +8,14 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
   max-height: 100%; /* Ensure the grid doesn't exceed the container's height */
   grid-auto-rows: auto; /* Automatically adjust row height based on content */
   overflow: auto; /* Allow scrolling if content exceeds the height */
 
-  @media screen and (min-width: 30em) {
+  @media screen and (max-width: 30em) {
     /* If the screen width is at least 30em (adjust as needed) */
-    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
-  }
-
-  @media screen and (min-width: 60em) {
-    /* If the screen width is at least 60em (adjust as needed) */
-    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-template-columns: 1fr;
   }
 }
