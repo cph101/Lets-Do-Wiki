@@ -7,7 +7,7 @@ import { EffectList } from '@site/src/components/modules/List';
 
 # Effects
 
-<EffectList modId="brewery" list={effects} />
+<EffectList modId="herbalbrews" list={effects} />
 
 export const effects = [
 {

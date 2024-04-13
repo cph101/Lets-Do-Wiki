@@ -21,7 +21,7 @@ The Meadow biome is divided into three sub-biomes: Meadow, Forest, Clearing. The
 ***
 
 ## Terrain
-<Icon modId="meadow" imageId="limestone.png" description="The terrain of the overhauled Meadow biome has an increased number of limestone boulders on both larger and smaller steeply sloping hills. Natural stone and limestone slabs also generate on rock formations, and the ground has patterns of coarse dirt and - mainly near forest areas - podzol." type="worldgen" />
+<Icon modId="meadow" imageId="limestone.png" description="The terrain of the overhauled Meadow biome has an increased number of limestone boulders on both larger and smaller steeply sloping hills. Natural stone and limestone slabs also generate on rock formations, and the ground has patterns of coarse dirt and - mainly near forest areas - podzol." pixelated="false" type="worldgen" />
 It also changes the rock: instead of stone, you will find mainly limestone in meadow biomes. This differs from the normal stone only in color and texture. Almost all ores can also be found in limestone.
 
 ***

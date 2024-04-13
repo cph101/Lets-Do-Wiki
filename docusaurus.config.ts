@@ -57,9 +57,9 @@ const config: Config = {
     image: 'img/docusaurus-social-card.jpg',
     algolia: {
           appId: 'GQS7PRJCVR',
-          apiKey: '096a1ff6d5aa10a0b108b3478062a0ae',
+          apiKey: '42ad30bd9ddb466b333a3b68ea9c150a',
           indexName: 'team-let-s-doio',
-          contextualSearch: false
+          contextualSearch: true
         },
     colorMode: {
           defaultMode: 'dark',
