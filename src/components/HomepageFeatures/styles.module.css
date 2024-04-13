@@ -1,24 +1,16 @@
 /* styles.module.css */
 
 .features {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Automatische Anordnung von Spalten */
-  grid-gap: 20px; /* Abstand zwischen den Karten */
-  align-items: center;
+  display: flex;
+  justify-content: space-around; /* Distribute items evenly */
+  flex-wrap: wrap; /* Allow items to wrap to next line if needed */
   padding: 2rem 0;
 }
-/* Media Query für große Bildschirme (z.B. Desktops) */
-@media (min-width: 768px) {
-  .features {
-    flex-wrap: wrap; /* Elemente können bei Bedarf umbrechen */
-    justify-content: space-between; /* Elemente gleichmäßig im Container verteilen */
-  }
-}
 
-/* Media Query für kleine Bildschirme (z.B. Handys) */
+/* Adjustments for small screens */
 @media (max-width: 767px) {
   .features {
-    flex-direction: column; /* Elemente in einer Spalte anordnen */
-    align-items: center; /* Elemente zentrieren */
+    flex-direction: column; /* Stack items vertically on small screens */
+    align-items: center; /* Center items horizontally */
   }
 }

@@ -3,19 +3,19 @@
 .card__body {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Zentrieren des Inhalts horizontal */
+  align-items: center;
 }
 
 .card__image {
-  width: 100%; /* Logo nimmt die volle Breite der Karte ein */
-  height: auto; /* Höhe automatisch anpassen */
+  max-width: 100%; /* Ensure logo doesn't stretch too much */
+  height: auto;
 }
 
 .card__title {
   margin: 0;
-  margin-top: 10px; /* Abstand zwischen Logo und Kategorienname hinzufügen */
+  margin-top: 10px;
 }
 
 .card:hover {
-  box-shadow: 0 0 8px var(--ifm-color-primary-dark); /* Benutzerdefinierte Konturfarbe anwenden */
+  box-shadow: 0 0 8px var(--ifm-color-primary-dark);
 }
