@@ -9,12 +9,10 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1em;
-  overflow-x: hidden;
-  overflow-y: hidden;
 }
 
-@media (max-width: 30em) {
-    /* If the screen width is at least 30em (adjust as needed) */
+@media (max-width: 30vw) {
+    /* If the viewport width is at most 30% of the total viewport width */
     .grid {
         grid-template-columns: 1fr;
     }
