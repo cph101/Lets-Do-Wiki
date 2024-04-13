@@ -8,7 +8,7 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Ändere auto-fit zu auto-fill */
   gap: 20px;
   max-height: 100%; /* Ensure the grid doesn't exceed the container's height */
   grid-auto-rows: auto; /* Automatically adjust row height based on content */
