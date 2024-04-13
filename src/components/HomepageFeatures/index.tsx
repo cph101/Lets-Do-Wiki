@@ -115,6 +115,26 @@ function MainCategory({name, description, slug}: {name: string, description: JSX
 }
 
 export default function HomepageCategories(): JSX.Element {
+  // Check media query when the component mounts
+  useEffect(() => {
+    function handleViewportChange(event: MediaQueryListEvent) {
+      if (event.matches) {
+        console.log("Media query triggered - viewport width is less than or equal to 30vw");
+      } else {
+        console.log("Media query not triggered - viewport width is greater than 30vw");
+      }
+    }
+
+    const mediaQuery = window.matchMedia("(max-width: 30vw)");
+    mediaQuery.addListener(handleViewportChange);
+
+    // Initial check
+    handleViewportChange(mediaQuery);
+
+    // Cleanup listener when component unmounts
+    return () => mediaQuery.removeListener(handleViewportChange);
+  }, []);
+
   return (
     <section className={styles.features}>
       <div className={styles.grid}>
