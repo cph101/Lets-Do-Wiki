@@ -54,7 +54,6 @@ function MainCategory({ name, description, slug }: { name: string, description: 
 
 export default function HomepageCategories(): JSX.Element {
   return (
-    <section className={styles.features}>
       <div className="container">
         <div className="row">
           {MainCategoryList.map((category, idx) => (
@@ -62,6 +61,5 @@ export default function HomepageCategories(): JSX.Element {
           ))}
         </div>
       </div>
-    </section>
   );
 }
