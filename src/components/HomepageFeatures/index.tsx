@@ -125,7 +125,7 @@ export default function HomepageCategories(): JSX.Element {
       const viewportWidthCentimeters = viewportWidthPixels / window.devicePixelRatio / 2.54;
 
       // Define the threshold width in centimeters
-      const thresholdWidthCentimeters = 30; // Adjust this value as needed
+      const thresholdWidthCentimeters = 7; // Adjust this value as needed
 
       // Check if the viewport width is smaller than the threshold
       const isViewportSmallerThanThreshold = viewportWidthCentimeters < thresholdWidthCentimeters;
