@@ -15,7 +15,7 @@ Fill the pot with the respective grapes until it is completely full, jump in and
 ***
 
 ## Fermentation Barrel
-<BlockIcon modId="meadow" imageId="fermentation_barrel.png" description="The Fermentation Barrel is your primary crafting station for making Wine." />
+<BlockIcon modId="vinery" imageId="fermentation_barrel.png" description="The Fermentation Barrel is your primary crafting station for making Wine." />
 
 ### Usage
 The block works similarly to the already known crafting stations in Minecraft: It has 4 input slots for ingredients (left), one input slot for a wine bottle (middle), and one output slot (right). It also offers a built-in recipe book that displays all available recipes and the ingredients required for them.
