@@ -35,7 +35,7 @@ Currently, in 1.19.2 JEI is not supported!
 ## Config
 Some mods offer the option to slightly modify your experience through configuration.
 
-You can find the respective files under /config/<modid>/.
+You can find the respective files under `/config/<modid>/`.
 
 With the use of [ClothConfig](https://modrinth.com/mod/cloth-config), you can modify the config directly in-game. On Fabric, you also need [Mod Menu](https://modrinth.com/mod/modmenu) to access the config.
 
