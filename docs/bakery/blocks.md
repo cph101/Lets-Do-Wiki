@@ -10,7 +10,11 @@ import Image from '@site/src/components/modules/Image';
 ## Wild Crops
 After successfully adding Bakery to your mods, you will be able to discover various new plant species in newly generated chunks. Some of these will be more common, while others will be rarer to find. So keep your eyes open!
 
-**Note:** You will not be able to find crops in chunks that have already been generated.
+:::note
+
+You will not be able to find crops in chunks that have already been generated.
+
+:::
 
 ### Oat
 <BlockIcon modId="bakery" imageId="oat_stage5_2.png" description="You can primarily find oat in Plains biomes in the form of a small farmland structure. There is also a chance to find it in various village structures as well as pillager outposts, woodland mansions, or in the small Bakery structure." />
@@ -19,9 +23,19 @@ After successfully adding Bakery to your mods, you will be able to discover vari
 <BlockIcon modId="bakery" imageId="wild_strawberries1.png" description="These can mainly be found in temperate biomes. The spawn chance is the same in all biomes." />
 
 Strawberries specifically spawn in the following biomes:
-Plains Meadow Sunflower_plains River Taiga and all sub-variants Jungle and all sub-variants Savanna and all sub-variants
+*Plains 
+*Meadow
+*Sunflower Plains
+*River
+*Taiga and all sub-variants 
+*Jungle and all sub-variants 
+*Savanna and all sub-variants
 
-**Note:** Strawberries will also spawn in modded biomes as long as their using the respective biome tags.
+:::info
+
+Strawberries will also spawn in modded biomes as long as their using the respective biome tags.
+
+:::
 
 ***
 
@@ -33,7 +47,11 @@ The block works similarly to the already known crafting stations in Minecraft: I
 
 Once you've placed the ingredients needed for the respective recipe into the corresponding input slots, it takes about 12 seconds for the crafting process to complete - the crafted item then appears in the output slot. Crafting all items requires a valid item in the fuel slot - this can be either coal, charcoal, or other items.
 
-**Note:** The items located in both the output and input slots are also displayed within the block in the game world.
+:::info
+
+The items located in both the output and input slots are also displayed within the block in the game world.
+
+:::
 
 <Image modId="bakery" imageId="stove_gui.png" align="center" />
 
@@ -71,7 +89,11 @@ Like the Caking Station, the Crafting Bowl also has no interface and functions t
 
 Once you have placed the correct ingredients inside, you can stir the whisk in the bowl to start the dough-making process. This is visually represented with an animation.
 
-***Note:*** You need an empty hand to start the manufacturing process.
+:::info
+
+You need an empty hand to start the manufacturing process.
+
+:::
 
 ***
 

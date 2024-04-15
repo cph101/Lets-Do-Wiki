@@ -30,7 +30,11 @@ export const wildCrops = [
   }
 ];
 
-**Note:** Hops will also spawn in modded biomes as long as their using the respective biome tags.
+:::note
+
+Hops will also spawn in modded biomes as long as their using the respective biome tags.
+
+:::
 
 ***
 
@@ -90,7 +94,11 @@ Occurring events:
 
 There are different tiers for the brewing station: Wood, Copper, and Netherite. To brew whiskey, you need Copper or Netherite.
 
-**Note:** The faster and better you complete the mini-game, the better the beer quality. If you use a Wood or Copper Brewing Station, some very bad things can even happen!
+:::tip
+
+The faster and better you complete the mini-game, the better the beer quality. If you use a Wood or Copper Brewing Station, some very bad things can even happen!
+
+:::
 
 ***
 

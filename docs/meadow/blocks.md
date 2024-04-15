@@ -20,7 +20,11 @@ Depending on which type of milk you use, the produced cheese is different. There
 
 <Image modId="meadow" imageId="cheese_press_gui.png" align="center" />
 
-**Note:** The cheese wheel located in the output slot is also displayed within the block in the game world.
+:::info
+
+The cheese wheel located in the output slot is also displayed within the block in the game world.
+
+:::
 
 ***
 

@@ -14,7 +14,11 @@ The variations range from cake stands to trays to wall displays.
 ### Usage
 Right-click on an empty space to place the respective item. Right click an occupied space to remove the respective item.
 
-**Note:** Not all items and blocks can be placed in all storage blocks.
+:::note
+
+Not all items and blocks can be placed in all storage blocks.
+
+:::
 
 ***
 

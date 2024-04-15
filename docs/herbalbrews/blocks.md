@@ -42,7 +42,11 @@ export const plants = [
 }
 ];
 
-**Note:** All Flowers and Wild Crops will also spawn in modded biomes as long as they use the respective biome tags.
+:::note
+
+All Flowers and Wild Crops will also spawn in modded biomes as long as they use the respective biome tags.
+
+:::
 
 ***
 
