@@ -108,9 +108,7 @@ The faster and better you complete the mini-game, the better the beer quality. I
 ***
 
 ## Rope
-<BlockIcon modId="brewery" imageId="rope.png" description="After successfully adding Brewery to your mods, you will be able to discover various new plant species in newly generated chunks. Some of these will be more common, while others will be rarer to find. So keep your eyes open!" />
+<BlockIcon modId="brewery" imageId="rope.png" description="Even though hops can grow without a rope, they can be further stabilized with the use of one. This additional stabilization allows the hops to grow taller than 2 blocks." />
 
 ### Usage
-Even though hops can grow without a rope, they can be further stabilized with the use of one. This additional stabilization allows the hops to grow taller than 2 blocks.
-
 The rope can be attached to both fence posts and tripwire hooks. Ropes can also be stretched diagonally. At a height of more than 3 blocks, vertical ropes are automatically created at valid positions—if these are not needed, they can be easily removed with shears.
