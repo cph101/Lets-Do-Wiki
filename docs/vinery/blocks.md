@@ -26,13 +26,13 @@ The block works similarly to the already known crafting stations in Minecraft: I
 
 Once you've placed the ingredients needed for the respective recipe into the corresponding input slots, it takes about 12 seconds for the crafting process to complete - the crafted item then appears in the output slot.
 
+<Image modId="vinery" imageId="fermentation_barrel_gui.png" align="center" />
+
 :::info
 
 Crafting Time can be changed in the config.
 
 :::
-
-<Image modId="vinery" imageId="fermentation_barrel_gui.png" align="center" />
 
 ***
 

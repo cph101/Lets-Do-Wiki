@@ -30,7 +30,7 @@ export const wildCrops = [
   }
 ];
 
-:::note
+:::info
 
 Hops will also spawn in modded biomes as long as their using the respective biome tags.
 

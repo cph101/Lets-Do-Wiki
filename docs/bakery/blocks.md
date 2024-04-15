@@ -47,13 +47,13 @@ The block works similarly to the already known crafting stations in Minecraft: I
 
 Once you've placed the ingredients needed for the respective recipe into the corresponding input slots, it takes about 12 seconds for the crafting process to complete - the crafted item then appears in the output slot. Crafting all items requires a valid item in the fuel slot - this can be either coal, charcoal, or other items.
 
+<Image modId="bakery" imageId="stove_gui.png" align="center" />
+
 :::info
 
 The items located in both the output and input slots are also displayed within the block in the game world.
 
 :::
-
-<Image modId="bakery" imageId="stove_gui.png" align="center" />
 
 ***
 
