@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# General Information about the Let's Do Mods
+# General Info about the Mods
 
 ## Supported Minecraft Versions & Modloaders
 We are currently focusing on version 1.20.1 for Minecraft Java, primarily ensuring compatibility with the Fabric Loader.
