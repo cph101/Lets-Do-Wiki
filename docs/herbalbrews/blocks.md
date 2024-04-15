@@ -59,7 +59,7 @@ All Flowers and Wild Crops will also spawn in modded biomes as long as they use 
 <BlockIcon modId="herbalbrews" imageId="copper_tea_kettle.png" description="The Tea Kettle is your primary crafting station for making Tea and Coffee." />
 
 ### Usage
-The Tea Kettle has 6 input slots for ingredients (top left), one container slot (middle), one output slot (middle right), and an indicator of whether it is on a hot (lit) surface. Like the Stove, it also offers a built-in recipe book that displays all available recipes and the ingredients required for them.
+The Tea Kettle has 6 input slots for ingredients (top left), one container slot (middle), one output slot (middle right), and an indicator of whether it is on a hot (lit) surface. Like the Stove, it also offers a built-in [recipe book](common.md#recipe-book) that displays all available recipes and the [ingredients](items.md#ingredients) required for them.
 
 Once you've placed the ingredients needed for the respective recipe into the corresponding input slots, it takes about 30 seconds for the crafting process to complete - the crafted item then appears in the output slot. To make the small cooking pot usable, it must be on a hot surface. You can recognize this both audiovisually in the game through rising smoke and cooking sounds, as well as visually in the GUI of the cooking pot: The fire changes from grayscale to colorful.
 
@@ -71,7 +71,7 @@ Once you've placed the ingredients needed for the respective recipe into the cor
 <BlockIcon modId="herbalbrews" imageId="cauldron.png" description="The Brewing Cauldron is your primary crafting station for making Flasks and Potions." />
 
 ### Usage
-The Brewing Cauldron has 4 input slots for ingredients (top left), one container slot (middle), one output slot (middle right). Like the Stove, it also offers a built-in recipe book that displays all available recipes and the ingredients required for them.
+The Brewing Cauldron has 4 input slots for ingredients (top left), one container slot (middle), one output slot (middle right). Like the Stove, it also offers a built-in [recipe book](common.md#recipe-book) that displays all available recipes and the [ingredients](items.md#ingredients) required for them.
 
 Once you've placed the ingredients needed for the respective recipe into the corresponding input slots, it takes about 45 seconds for the crafting process to complete - the crafted item then appears in the output slot.
 

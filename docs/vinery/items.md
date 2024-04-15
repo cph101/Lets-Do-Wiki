@@ -21,7 +21,6 @@ In the config, you can adjust how much durability the set loses. Additionally, y
 
 ## Completionist Banner
 <ItemIcon modId="vinery" imageId="vinery_standard.png" description="The Completionist Banner is awarded to all players who have crafted all Wines from the Vinery Mod." />
-When you wear all four pieces of the set, you receive a set bonus. This bonus prevents the bone meal you use from being consumed - however, the armor set loses durability in exchange.
 
 **Note:** To receive the respective Advancements, you need all the items in your inventory at the same time.
 

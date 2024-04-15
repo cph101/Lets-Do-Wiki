@@ -19,7 +19,7 @@ Need Mashed Potatoes? Toss them on a Stonecutter as well!
 
 The piece of clothing he sells is random, so you might well need to visit several traders to get the complete set.
 
-As a reward for wearing the full set, you become immune to the effects of alcohol. Woohoo!
+As a reward for wearing the full set, you become immune to the harmful [effects](effects.md) of alcohol. Woohoo!
 
 ***
 

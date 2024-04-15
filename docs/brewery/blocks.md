@@ -21,12 +21,12 @@ export const wildCrops = [
   {
     "name": "Corn",
     "imageId": "corn.png",
-    "description": "Can be found in Villages. If you having trouble finding Kernels just throw some Beetroot Seeds on a Woodcutter and enjoy your freshly... cut Kernels."
+    "description": "Can be found in Villages. If you having trouble finding Kernels just throw some Beetroot Seeds on a Stonecutter and enjoy your freshly... cut Kernels."
   },
   {
     "name": "Barley",
     "imageId": "barley.png",
-    "description": "Same as Corn. If you having trouble finding Barley Seeds just throw some Wheat Seeds on a Woodcutter and enjoy your freshly cut Barley Seeds."
+    "description": "Same as Corn. If you having trouble finding Barley Seeds just throw some Wheat Seeds on a Stonecutter and enjoy your freshly cut Barley Seeds."
   }
 ];
 

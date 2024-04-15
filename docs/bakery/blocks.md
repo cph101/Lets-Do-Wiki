@@ -23,13 +23,13 @@ You will not be able to find crops in chunks that have already been generated.
 <BlockIcon modId="bakery" imageId="wild_strawberries1.png" description="These can mainly be found in temperate biomes. The spawn chance is the same in all biomes." />
 
 Strawberries specifically spawn in the following biomes:
-*Plains 
-*Meadow
-*Sunflower Plains
-*River
-*Taiga and all sub-variants 
-*Jungle and all sub-variants 
-*Savanna and all sub-variants
+* Plains 
+* Meadow
+* Sunflower Plains
+* River
+* Taiga and all sub-variants 
+* Jungle and all sub-variants 
+* Savanna and all sub-variants
 
 :::info
 
@@ -43,7 +43,7 @@ Strawberries will also spawn in modded biomes as long as their using the respect
 <BlockIcon modId="bakery" imageId="stove.png" description="The Stove is your primary crafting station for making pastries and bread. It also serves as a heat source for the Cooking Pot." pixelated="false" />
 
 ### Usage
-The block works similarly to the already known crafting stations in Minecraft: It has 3 input slots for ingredients (top left), one input slot for a fuel source (bottom left), and one output slot (middle right). It also offers a built-in recipe book that displays all available recipes and the ingredients required for them.
+The block works similarly to the already known crafting stations in Minecraft: It has 3 input slots for ingredients (top left), one input slot for a fuel source (bottom left), and one output slot (middle right). It also offers a built-in [recipe book](common.md#recipe-book) that displays all available recipes and the ingredients required for them.
 
 Once you've placed the ingredients needed for the respective recipe into the corresponding input slots, it takes about 12 seconds for the crafting process to complete - the crafted item then appears in the output slot. Crafting all items requires a valid item in the fuel slot - this can be either coal, charcoal, or other items.
 
@@ -61,7 +61,7 @@ The items located in both the output and input slots are also displayed within t
 <BlockIcon modId="bakery" imageId="small_cooking_pot.png" description="The Caking Station is mainly used to prepare cakes, cupcakes, and cookies." />
 
 ### Usage
-The Small Cooking Pot has 6 input slots for ingredients (top left), one container slot (middle), one output slot (middle right), and an indicator of whether it is on a hot (lit) surface. Like the Stove, it also offers a built-in recipe book that displays all available recipes and the ingredients required for them.
+The Small Cooking Pot has 6 input slots for ingredients (top left), one container slot (middle), one output slot (middle right), and an indicator of whether it is on a hot (lit) surface. Like the Stove, it also offers a built-in [recipe book](common.md#recipe-book) that displays all available recipes and the ingredients required for them.
 
 Once you've placed the ingredients needed for the respective recipe into the corresponding input slots, it takes about 30 seconds for the crafting process to complete - the crafted item then appears in the output slot. To make the small cooking pot usable, it must be on a hot surface. You can recognize this both audiovisually in the game through rising bubbles and cooking sounds, as well as visually in the GUI of the cooking pot: The fire changes from grayscale to colorful.
 
@@ -77,7 +77,11 @@ The starting product to begin the manufacturing process is always a Cake Dough. 
 
 Now you have the following options:
 
-Use Jam to make a cake Use a knife to cut the raw cake batter and then process it into cupcakes with Jam Use a knife first and then a Rolling Pin to cut and roll the raw cake batter and then process it into cookies with Jam Upon completion, you can dismantle and pick up the respective end product.
+* Use Jam to make a cake 
+* Use a knife to cut the raw cake batter and then process it into cupcakes with Jam 
+* Use a knife first and then a Rolling Pin to cut and roll the raw cake batter and then process it into cookies with Jam 
+
+Upon completion, you can dismantle and pick up the respective end product.
 
 ***
 

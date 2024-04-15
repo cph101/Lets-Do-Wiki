@@ -16,7 +16,7 @@ Teas are crafted in a [Tea Kettle](blocks.md#tea-kettle).
 
 ## Flasks
 <ItemIcon modId="herbalbrews" imageId="health_flask_big.png" description="Flasks behave similarly to Potions - they are drinkable and mainly provide bonuses to damage and armor. There are both small and large flasks; however, these only differ in the duration of the effect." />
-Flasks are crafted in a Brewing Cauldron.
+Flasks are crafted in a [Brewing Cauldron](blocks.md#brewing-cauldron).
 
 ***
 
