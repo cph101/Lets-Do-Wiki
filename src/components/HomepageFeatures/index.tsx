@@ -46,6 +46,16 @@ const MainCategoryList = [
           Start your journey with Docusaurus and learn how to get started with your documentation.
         </>
       ),
+    },
+    {
+      name: 'Vinery',
+      slug: 'vinery',
+      logo: 'vinery.png',
+      description: (
+        <>
+          Start your journey with Docusaurus and learn how to get started with your documentation.
+        </>
+      ),
     }
   // Add more main categories as needed
 ];
