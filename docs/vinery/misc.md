@@ -32,20 +32,20 @@ export const grapes = [
 },
 {
 "name": "Taiga Grapes",
-"imageId1": "taiga_red_grape.png",
-"imageId2": "taiga_white_grape.png",
+"imageId1": "taiga_grapes_red.png",
+"imageId2": "taiga_grapes_white.png",
 "description": "Can mostly be found in taiga biomes and all sub-variants. These are quite rare and it may require a longer journey to find them."
 },
 {
 "name": "Savanna Grapes",
-"imageId1": "savanna_red_grape.png",
-"imageId2": "savanna_white_grape.png",
+"imageId1": "savanna_grapes_red.png",
+"imageId2": "savanna_grapes_white.png",
 "description": "Can mostly be found in savanna biomes and all sub-variants. However, these are very rare."
 },
 {
 "name": "Jungle Grapes",
-"imageId1": "jungle_red_grape.png",
-"imageId2": "jungle_white_grape.png",
+"imageId1": "jungle_grapes_red.png",
+"imageId2": "jungle_grapes_white.png",
 "description": "Can be found in jungle biomes and all sub-variants. They are quite common and easy to find."
 }
 ];
