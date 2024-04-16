@@ -15,7 +15,7 @@ If the food is prepared with a potion or wine in a Cooking Pot or Cooking Pan, t
 
 Most of the food from Candlelight is somewhat more expensive in terms of resources, but it can be eaten multiple times. Each time, the texture of the respective food item changes.
 
-<Image modId="candlelight" imageId="food.png“ align="center" />
+<Image modId="candlelight" imageId="food.png" align="center" />
 
 ***
 
