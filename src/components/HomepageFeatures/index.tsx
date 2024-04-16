@@ -28,6 +28,16 @@ const MainCategoryList = [
       ),
   },
   {
+        name: 'Candlelight',
+        slug: 'candlelight',
+        logo: 'candlelight.png',
+        description: (
+          <>
+            Find answers to frequently asked questions about Docusaurus and its usage.
+          </>
+        ),
+  },
+  {
     name: 'Herbal Brews',
     slug: 'herbalbrews',
     logo: 'herbalbrews.png',
