@@ -3,16 +3,16 @@ sidebar_position: 1
 ---
 import Icon from '@site/src/components/modules/Icon';
 import EffectList from '@site/src/components/modules/EffectList';
-
+import List from '@site/src/components/modules/List';
 
 # Nether Vinery
 
 ## Blocks
 
 ### Wild Crops
-<BlockIcon modId="vinery" imageId="crimson_grape.png" description="After successfully adding NetherVinery to your mods, you will be able to discover various new plant species in newly generated chunks. Some of these will be more common, while others will be rarer to find. So keep your eyes open!" type="nether" />
+<Icon modId="vinery" imageId="crimson_grape.png" description="After successfully adding NetherVinery to your mods, you will be able to discover various new plant species in newly generated chunks. Some of these will be more common, while others will be rarer to find. So keep your eyes open!" type="nether" />
 
-<BlockList modId="brewery" list={wildCrops} />
+<List modId="brewery" list={wildCrops} type="nether" />
 
 export const wildCrops = [
 {
@@ -34,7 +34,7 @@ You will not be able to find crops in chunks that have already been generated.
 :::
 
 ### Obsidian Stem
-<BlockIcon modId="vinery" imageId="obsidian_stem.png" description="Used to cultivate normal, taiga, savanna, warped and crimson grapes." pixelated="false" type="nether" />
+<Icon modId="vinery" imageId="obsidian_stem.png" description="Used to cultivate normal, taiga, savanna, warped and crimson grapes." pixelated="false" type="nether" />
 
 The Stem is two blocks high, and to place the respective seeds, you must (while holding the seeds) click on the upper part. Increased Growth Speed by 10%
 
@@ -43,7 +43,7 @@ The Stem is two blocks high, and to place the respective seeds, you must (while 
 ## Items
 
 ### Nether Bag
-<BlockIcon modId="vinery" imageId="warped_nether_bag.png" description="Wow! A fancy Bundle." type="nether" />
+<Icon modId="vinery" imageId="warped_nether_bag.png" description="Wow! A fancy Bundle." type="nether" />
 
 Works similar like a Bundle. Can be crafted.
 
