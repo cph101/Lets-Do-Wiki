@@ -19,8 +19,7 @@ export default function EffectList({ modId, list }) {
         <div key={index} style={{ display: 'grid', gridTemplateColumns: 'auto 1fr', alignItems: 'center' }}>
           <Image modId={modId} imageUrl={item.imageId} />
           <div className="speckyInlineMarkdown" style={{ marginLeft: '8px' }}>
-            <strong>{item.name}</strong>
-            <ReactMarkdown>{` - ${item.description}`}</ReactMarkdown>
+            <strong>{item.name}</strong> - <ReactMarkdown>{item.description}</ReactMarkdown>
           </div>
         </div>
       ))}
