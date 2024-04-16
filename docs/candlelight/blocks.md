@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 import { BlockList } from '@site/src/components/modules/List';
 import { BlockIcon } from '@site/src/components/modules/Icon';
-
+import Image from '@site/src/components/modules/Image';
 
 
 # Blocks
@@ -41,6 +41,8 @@ The block works similarly to the already known crafting stations in Minecraft: I
 
 Once you've placed the ingredients needed for the respective recipe into the corresponding input slots, it takes about 30 seconds for the crafting process to complete - the crafted item then appears in the output slot.
 
+<Image modId="candlelight" imageId="cooking_pot_gui.png" align="center" />
+
 ***
 
 ## Cooking Pan
@@ -50,6 +52,8 @@ Once you've placed the ingredients needed for the respective recipe into the cor
 The block works identical to the Cooking Pot: It has 6 input slots for ingredients (left), one input slot for a container (middle), and one output slot (right). It also offers a built-in [recipe book](common.md#recipe-book) that displays all available recipes and the ingredients required for them.
 
 Once you've placed the ingredients needed for the respective recipe into the corresponding input slots, it takes about 30 seconds for the crafting process to complete - the crafted item then appears in the output slot.
+
+<Image modId="candlelight" imageId="cooking_pan_gui.png" align="center" />
 
 ***
 

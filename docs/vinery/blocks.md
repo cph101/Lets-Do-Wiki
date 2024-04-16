@@ -22,7 +22,7 @@ You can't mix different Grape Variants.
 <BlockIcon modId="vinery" imageId="fermentation_barrel.png" description="The Fermentation Barrel is your primary crafting station for making Wine." />
 
 ### Usage
-The block works similarly to the already known crafting stations in Minecraft: It has 4 input slots for ingredients (left), one input slot for a wine bottle (middle), and one output slot (right). It also offers a built-in recipe book that displays all available recipes and the ingredients required for them.
+The block works similarly to the already known crafting stations in Minecraft: It has 4 input slots for ingredients (left), one input slot for a wine bottle (middle), and one output slot (right). It also offers a built-in [recipe book](common.md#recipe-book) that displays all available recipes and the ingredients required for them.
 
 Once you've placed the ingredients needed for the respective recipe into the corresponding input slots, it takes about 12 seconds for the crafting process to complete - the crafted item then appears in the output slot.
 

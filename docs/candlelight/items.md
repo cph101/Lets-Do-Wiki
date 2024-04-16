@@ -4,15 +4,18 @@ sidebar_position: 2
 
 import { ItemList } from '@site/src/components/modules/List';
 import { ItemIcon } from '@site/src/components/modules/Icon';
+import Image from '@site/src/components/modules/Image';
 
 # Items
 ## Food
-<ItemIcon modId="candlelight" imageId="pretzel.png" description="Food! The centerpiece of Candlelight." />
+<ItemIcon modId="candlelight" imageId="pasta_bolognese.png" description="Food! The centerpiece of Candlelight." />
 Food is mainly made in a [Cooking Pot](blocks.md#cooking-pot) or [Cooking Pan](blocks.md#cooking-pan).
 
 If the food is prepared with a potion or wine in a Cooking Pot or Cooking Pan, the food item will receive the effect that was on the used potion or wine.
 
 Most of the food from Candlelight is somewhat more expensive in terms of resources, but it can be eaten multiple times. Each time, the texture of the respective food item changes.
+
+<Image modId="candlelight" imageId="food.png“ align="center" />
 
 ***
 
@@ -29,7 +32,9 @@ You'll need either a writable notepaper or a [typewriter](blocks.md#typewriter) 
 ### Usage
 Write the letter and sign it. Now, while holding the envelope in your main hand, you can open it with a simple right-click. The GUI that opens has several slots: Two input slots (top left, bottom left) and an output slot (center right). Place the written letter and the opened envelope in the input slots, and you will get the sealed letter.
 
+<Image modId="candlelight" imageId="note.png" align="center" />
 
+***
 
 ## Completionist Banner
 <ItemIcon modId="candlelight" imageId="candlelight_standard.png" description="The Completionist Banner is awarded to all players who have crafted all different Foods from the Candlelight Mod." />
