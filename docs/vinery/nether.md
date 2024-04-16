@@ -12,7 +12,7 @@ import List from '@site/src/components/modules/List';
 ### Wild Crops
 <Icon modId="vinery" imageId="crimson_grape.png" description="After successfully adding NetherVinery to your mods, you will be able to discover various new plant species in newly generated chunks. Some of these will be more common, while others will be rarer to find. So keep your eyes open!" type="nether" />
 
-<List modId="brewery" list={wildCrops} type="nether" />
+<List modId="vinery" list={wildCrops} type="nether" />
 
 export const wildCrops = [
 {
@@ -51,12 +51,12 @@ Works similar like a Bundle. Can be crafted.
 
 ## Effects
 
-<EffectList modId="herbalbrews" list={effects} />
+<EffectList modId="vinery" list={effects} />
 
 export const effects = [
 {
 "name": "Grave Digger",
-"imageId": "balanced.png",
+"imageId": "gravedigger.png",
 "description": "Teleports you to your last death point. Works only in the Overworld."
 },
 {
