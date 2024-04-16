@@ -21,7 +21,7 @@ There is a marginal chance that you will get a rotten cherry. Ugh - please don't
 
 ### Grapes
 
-<List2 modId="vinery" list={grapes} type=„misc“ />
+<List2 modId="vinery" list={grapes} type="misc" />
 
 export const grapes = [
 {
