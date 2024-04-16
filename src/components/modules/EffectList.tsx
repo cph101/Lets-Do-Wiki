@@ -20,6 +20,7 @@ export default function EffectList({ modId, list }) {
           <Image modId={modId} imageUrl={item.imageId} />
           <div className="speckyInlineMarkdown" style={{ marginLeft: '8px' }}>
             <strong>{item.name}</strong> - <ReactMarkdown>{item.description}</ReactMarkdown>
+            <span className="bigAssItemSpacer"></span>
           </div>
         </div>
       ))}
