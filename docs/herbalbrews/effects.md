@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 ---
-import { EffectList } from '@site/src/components/modules/List';
+import EffectList from '@site/src/components/modules/EffectList';
 
 
 

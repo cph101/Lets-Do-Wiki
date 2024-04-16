@@ -36,7 +36,3 @@ export function ItemList2(props) {
 export function BlockList2(props) {
     return <List2 {...props} type="block" />;
 }
-
-export function EffectList2(props) {
-    return <List2 {...props} type="effect" />;
-}

@@ -6,13 +6,13 @@ export function Image({ modId, type, imageUrl }) {
     <span>
       <img
         src={`/Lets-Do-Wiki/img/textures/${modId}/${type}/${imageUrl}`}
-        style={{ imageRendering: 'pixelated', width: '28px', marginRight: '4px', marginBottom: "-8px" }}
+        style={{ imageRendering: 'pixelated', width: '50px', marginRight: '4px' }}
       />
     </span>
   );
 }
 
-export default function List({ modId, list, type }) {
+export default function EffectList({ modId, list, type }) {
     return (
         <div>
             {list.map((item, index) => (
@@ -26,12 +26,4 @@ export default function List({ modId, list, type }) {
             ))}
         </div>
     );
-}
-
-export function ItemList(props) {
-    return <List {...props} type="item" />;
-}
-
-export function BlockList(props) {
-    return <List {...props} type="block" />;
 }
