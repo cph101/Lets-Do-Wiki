@@ -12,18 +12,18 @@ export function Image({ modId, imageUrl }) {
   );
 }
 
-export default function EffectList({ modId, list}) {
-    return (
-        <div>
-            {list.map((item, index) => (
-                <span key={index} style={{ display: 'grid', gridTemplateColumns: 'auto 1fr', alignItems: 'center' }}>
-            <Image modId={modId} imageUrl={list.imageId} />
-            <span className="speckyInlineMarkdown" style={{ marginLeft: '8px' }}>
-                <ReactMarkdown>{list.description}</ReactMarkdown>
-            </span>
-            <span className="bigAssItemSpacer"></span>
-                </span>
-            ))}
-        </div>
-    );
+export default function EffectList({ modId, list }) {
+  return (
+    <div>
+      {list.map((item, index) => (
+        <span key={index} style={{ display: 'grid', gridTemplateColumns: 'auto 1fr', alignItems: 'center' }}>
+          <Image modId={modId} imageUrl={item.imageId} />
+          <span className="speckyInlineMarkdown" style={{ marginLeft: '8px' }}>
+            <ReactMarkdown>{item.description}</ReactMarkdown>
+          </span>
+          <span className="bigAssItemSpacer"></span>
+        </span>
+      ))}
+    </div>
+  );
 }
