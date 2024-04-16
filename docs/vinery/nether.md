@@ -19,8 +19,6 @@ After successfully adding NetherVinery to your mods, you will be able to discove
 
 You can primarily find wild Crimson Grape Bushes in crimson Forest biomes. There is also a chance to find it in various nether structures. They only spawn near Lava Lakes.
 
-<br>
-
 **Warped Grape Bush**
 
 You can primarily find wild Warped Grape Bushes in warped Forest biomes. There is also a chance to find it in various nether structures. They only spawn near Lava Lakes.
@@ -36,7 +34,6 @@ You can primarily find wild Warped Grape Bushes in warped Forest biomes. There i
 
 Used to cultivate normal, taiga, savanna, warped and crimson grapes.
 
-<br>
 
 The Stem is two blocks high, and to place the respective seeds, you must (while holding the seeds) click on the upper part. Increased Growth Speed by 10%
 
@@ -47,7 +44,6 @@ The Stem is two blocks high, and to place the respective seeds, you must (while 
 
 Wow! A fancy Bundle.
 
-<br>
 
 Works similar like a Bundle. Can be crafted.
 
@@ -58,7 +54,6 @@ Works similar like a Bundle. Can be crafted.
 
 Teleports you to your last death point. Works only in the Overworld.
 
-<br>
 
 ***
 
@@ -67,15 +62,9 @@ Teleports you to your last death point. Works only in the Overworld.
 
 Teleports you to your bed. Works only in the Overworld.
 
-
-<br>
-
 ***
 
 ### Netherite
 <img src="https://imgur.com/LHjPrfa.png" alt="barrel" align="left" width="50" height="50" style="margin-right:20px;">
 
 You are immortal! At least for a short moment. Is it worth it for the Netherite Ingot?
-
-<br>
-
