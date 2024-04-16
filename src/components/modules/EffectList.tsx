@@ -18,10 +18,14 @@ export default function EffectList({ modId, list }) {
       {list.map((item, index) => (
         <span key={index} style={{ display: 'grid', gridTemplateColumns: 'auto 1fr', alignItems: 'center' }}>
           <Image modId={modId} imageUrl={item.imageId} />
+          <span style={{fontWeight: 'bold'}}>{item.name}</span>
+          <span> - </span>
           <span className="speckyInlineMarkdown" style={{ marginLeft: '8px' }}>
             <ReactMarkdown>{item.description}</ReactMarkdown>
           </span>
-          <span className="bigAssItemSpacer"></span>
+          <span className="speckyInlineMarkdown" style={{ marginLeft: '8px' }}>
+            <ReactMarkdown> *** </ReactMarkdown>
+          </span>
         </span>
       ))}
     </div>
