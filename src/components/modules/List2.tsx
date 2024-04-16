@@ -30,13 +30,13 @@ export default function List2({ modId, list, type }) {
 }
 
 export function ItemList2(props) {
-    return <List {...props} type="item" />;
+    return <List2 {...props} type="item" />;
 }
 
 export function BlockList2(props) {
-    return <List {...props} type="block" />;
+    return <List2 {...props} type="block" />;
 }
 
 export function EffectList2(props) {
-    return <List {...props} type="effect" />;
+    return <List2 {...props} type="effect" />;
 }
