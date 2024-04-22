@@ -1,63 +1,42 @@
 ---
-sidebar_position: 1
+sidebar_position: 4
 ---
 import Icon from '@site/src/components/modules/Icon';
-import List2 from '@site/src/components/modules/List2';
+import EffectList from '@site/src/components/modules/EffectList';
+import List from '@site/src/components/modules/List';
 
+# Nether Vinery
 
-# Blocks
+## Blocks
 
 ### Wild Crops
-<img src=“https://imgur.com/NXrBYLF.png” alt=“hops” align=“left” width=“50” height=“50” style=“margin-right:20px;”>
+<Icon modId="vinery" imageId="crimson_grape.png" description="After successfully adding NetherVinery to your mods, you will be able to discover various new plant species in newly generated chunks. Some of these will be more common, while others will be rarer to find. So keep your eyes open!" type="nether" />
 
-After successfully adding NetherVinery to your mods, you will be able to discover various new plant species in newly generated chunks. Some of these will be more common, while others will be rarer to find. So keep your eyes open!
+<List modId="vinery" list={wildCrops} type="nether" />
 
-**Note:** You will not be able to find crops in chunks that have already been generated.
+export const wildCrops = [
+{
+"name": "Crimson Grape Bush",
+"imageId": "crimson_grape_bush.png",
+"description": "You can primarily find wild Crimson Grape Bushes in crimson Forest biomes. There is also a chance to find it in various nether structures. They only spawn near Lava Lakes."
+},
+{
+"name": "Warped Grape Bush",
+"imageId": "warped_grape_bush.png",
+"description": "You can primarily find wild Warped Grape Bushes in warped Forest biomes. There is also a chance to find it in various nether structures. They only spawn near Lava Lakes."
+}
+];
 
-**Crimson Grape Bush**
+:::note
 
-You can primarily find wild Crimson Grape Bushes in crimson Forest biomes. There is also a chance to find it in various nether structures. They only spawn near Lava Lakes.
+You will not be able to find crops in chunks that have already been generated.
 
-<br>
-
-**Warped Grape Bush**
-
-You can primarily find wild Warped Grape Bushes in warped Forest biomes. There is also a chance to find it in various nether structures. They only spawn near Lava Lakes.
-
-<div align=“center”>
-<img src=“https://imgur.com/K6cWMQU.png” alt=“barrel_fermenting” width=“400”/>
-</div>
-
-***
+:::
 
 ### Obsidian Stem
-<img src=“https://imgur.com/TDeBxrM.png” alt=“rope” align=“left” width=“50” height=“50” style=“margin-right:20px;”>
-
-Used to cultivate normal, taiga, savanna, warped and crimson grapes.
-
-<br>
+<Icon modId="vinery" imageId="obsidian_stem.png" description="Used to cultivate normal, taiga, savanna, warped and crimson grapes." pixelated="false" type="nether" />
 
 The Stem is two blocks high, and to place the respective seeds, you must (while holding the seeds) click on the upper part. Increased Growth Speed by 10%
-
-# Items
-
-### Nether Bag
-<img src=“https://imgur.com/3KtK72G.png” alt=“rope” align=“left” width=“50” height=“50” style=“margin-right:20px;”>
-
-Wow! A fancy Bundle. 
-
-<br>
-
-Works similar like a Bundle. Can be crafted. 
-
-# Effects
-
-### Grave Digger
-<img src=“https://imgur.com/L0UKLJT.png” alt=“barrel” align=“left” width=“50” height=“50” style=“margin-right:20px;”>
-
-Teleports you to your last death point. Works only in the Overworld.
-
-<br>
 
 ***
 
@@ -65,16 +44,33 @@ Teleports you to your last death point. Works only in the Overworld.
 <img src=“https://imgur.com/EGnacRi.png” alt=“barrel” alig n=“left” width=“50” height=“50” style=“margin-right:20px;”>
 
 Teleports you to your bed. Works only in the Overworld.
+## Items
 
+### Nether Bag
+<Icon modId="vinery" imageId="warped_nether_bag.png" description="Wow! A fancy Bundle." type="nether" />
 
-<br>
+Works similar like a Bundle. Can be crafted.
 
 ***
 
-### Netherite
-<img src=“https://imgur.com/LHjPrfa.png” alt=“barrel” align=“left” width=“50” height=“50” style=“margin-right:20px;”>
+## Effects
 
-You are immortal! At least for a short moment. Is it worth it for the Netherite Ingot?
+<EffectList modId="vinery" list={effects} />
 
-<br>
-
+export const effects = [
+{
+"name": "Grave Digger",
+"imageId": "gravedigger.png",
+"description": "Teleports you to your last death point. Works only in the Overworld."
+},
+{
+"name": "Hearthstone",
+"imageId": "hearthstone.png",
+"description": "Teleports you to your bed. Works only in the Overworld."
+},
+{
+"name": "Netherite",
+"imageId": "netherite.png",
+"description": "You are immortal! At least for a short moment. Is it worth it for the Netherite Ingot?"
+}
+];
