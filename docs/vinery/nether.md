@@ -62,7 +62,7 @@ Teleports you to your last death point. Works only in the Overworld.
 ***
 
 ### Hearthstone
-<img src=“https://imgur.com/EGnacRi.png” alt=“barrel” align=“left” width=“50” height=“50” style=“margin-right:20px;”>
+<img src=“https://imgur.com/EGnacRi.png” alt=“barrel” alig n=“left” width=“50” height=“50” style=“margin-right:20px;”>
 
 Teleports you to your bed. Works only in the Overworld.
 

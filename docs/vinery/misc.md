@@ -70,7 +70,7 @@ You don't need to perform a special action with your wine to let it age; just le
 
 :::info
 
-Duration can be changed in the configuration.
+Duration can be changed in the [configuration](common.md#config).
 
 :::
 
@@ -82,6 +82,6 @@ There's a chance that he will visit you from time to time, offering Vinery-speci
 
 :::info
 
-The Wandering Winemaker shares the spawn chance with the Minecraft Wandering Trader. This can be adjusted in the config.
+The Wandering Winemaker shares the spawn chance with the Minecraft Wandering Trader. This can be adjusted in the [config](common.md#config).
 
 :::

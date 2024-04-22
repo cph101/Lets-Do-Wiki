@@ -28,7 +28,7 @@ After the Watering Can has been emptied, it can be refilled at a water source.
 
 :::info
 
-The amount of uses per refill can be changed in the configuration.
+The amount of uses per refill can be changed in [configuration](common.md#config).
 
 :::
 

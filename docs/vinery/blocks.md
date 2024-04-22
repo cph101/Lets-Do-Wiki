@@ -30,7 +30,7 @@ Once you've placed the ingredients needed for the respective recipe into the cor
 
 :::info
 
-Crafting Time can be changed in the config.
+Crafting Time can be changed in the [config](common.md#config).
 
 :::
 

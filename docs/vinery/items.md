@@ -13,7 +13,7 @@ When you wear all four pieces of the set, you receive a set bonus. This bonus pr
 
 :::info
 
-In the config, you can adjust how much durability the set loses. Additionally, you can toggle the effect of the set on or off and more!
+In the [config](common.md#config), you can adjust how much durability the set loses. Additionally, you can toggle the effect of the set on or off and more!
 
 :::
 
