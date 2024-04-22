@@ -40,10 +40,6 @@ The Stem is two blocks high, and to place the respective seeds, you must (while 
 
 ***
 
-### Hearthstone
-<img src=“https://imgur.com/EGnacRi.png” alt=“barrel” alig n=“left” width=“50” height=“50” style=“margin-right:20px;”>
-
-Teleports you to your bed. Works only in the Overworld.
 ## Items
 
 ### Nether Bag
