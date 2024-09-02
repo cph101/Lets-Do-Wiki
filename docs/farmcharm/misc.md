@@ -2,7 +2,6 @@
 sidebar_position: 1
 ---
 # Worldgen
-<img src="https://imgur.com/2s01PoE.png" alt="worldgen" align="left" width="50" height="50" style="margin-right:20px;">
 
 After successfully adding Farm & Charm to your mods, you will be able to discover various new crops species in newly generated chunks. Some of these will be more common, while others will be rarer to find. So keep your eyes open!
 
@@ -31,7 +30,6 @@ The respective wild crops are the perfect source to easily obtain the respective
 
 
 # Carts
-<img src="https://imgur.com/Mdpbued.png" alt="vegetation" align="left" width="50" height="50" style="margin-right:20px;">
 
 Carts are a perfect addition to simplify farming.
 
