@@ -6,8 +6,6 @@ sidebar_position: 1
 
 After successfully adding Farm & Charm to your mods, you will be able to discover various new crops species in newly generated chunks. Some of these will be more common, while others will be rarer to find. So keep your eyes open!
 
-<br>
-
 |                 | Plains | Sunflower Plains | River | Savanna | Badlands | Swamp | Meadow | Taiga | Forest |
 |-----------------|:------:|:----------------:|:-----:|:-------:|:--------:|:-----:|:------:|:-----:|:------:|
 | **Wild Barley** |   X    |        X         |   X   |    X    |          |       |        |       |        |
@@ -23,15 +21,11 @@ After successfully adding Farm & Charm to your mods, you will be able to discove
 | **Wild Carrots**|   X    |                  |       |         |          |   X   |    X   |       |    X   |
 | **Wild Strawberries**| X |                  |       |         |          |   X   |    X   |       |    X   |
 
-<br> 
 
 Depending on the type of crop, they spawn with varying frequency. While you'll easily find some of these, you may need to take a little trip into the wilderness for others.
 
 The respective wild crops are the perfect source to easily obtain the respective seeds and grains.
 
-<div align="center">
-  <img src="https://imgur.com/OnywhDe.png" alt="display" width="750"/>
-</div>
 
 ***
 
@@ -41,7 +35,6 @@ The respective wild crops are the perfect source to easily obtain the respective
 
 Carts are a perfect addition to simplify farming.
 
-<br>
 
 Currently, there are two different carts with various uses:
 
@@ -50,8 +43,6 @@ Can transport up to 2 players as well as plenty of items and blocks. It can also
 
 **Plow**
 Ideal for creating larger areas of farmland. Drag the cart over grass blocks for this purpose - they will then be converted into farmland.
-
-<br>
 
 **Usage**
 
