@@ -65,7 +65,3 @@ Right-click to sit on the cart.
 **Note:** Make sure you're targeting the cart.
 
 The respective hotkeys can be changed in the settings.
-
-<div align="center">
-  <img src="https://imgur.com/gQUtQHd.png" alt="display" width="750"/>
-</div>
