@@ -9,15 +9,19 @@ import { BlockIcon } from '@site/src/components/modules/Icon';
 ## Fish Tank
 <BlockIcon modId="furniture" imageId="copper_fish_tank.png" description="Similar to a bed, it requires two blocks and can be filled with fish from buckets. Each fish species can be added once." />
 Currently, the Fish Tank can be filled with Cod, Salmon, and Pufferfish.
+
 The fish are animated and super cute!
 
 ***
 
 ## Bin
-<BlockIcon modId="furniture" imageId="copper_fish_tank.png" description="Everyone collects something they no longer need at some point. Or receives gifts that aren't so great after all. The Bin is perfect for this!" />
+<BlockIcon modId="furniture" imageId="bin.png" description="Everyone collects something they no longer need at some point. Or receives gifts that aren't so great after all. The Bin is perfect for this!" />
 Hold the item in your main hand and perform a gentle right-click while targeting the Bin, and the item will be deleted. Irrevocably. It's gone. Forever.
+
 When the Bin is full, there is a chance that a Trash Bag will drop.
+
 From Trash Bags, you can theoretically get any item from any mod.
+
 Want to prevent something from dropping? Use the trash_bag_blacklist tag.
 
 ## Decorative Elements
