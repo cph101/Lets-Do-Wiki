@@ -61,7 +61,7 @@ export const effects = [
 {
 "name": "Magnet",
 "imageId": "magnet.png",
-"description": "Pulls all items within a small radius towards the player. What will happen when your inventory is full?"
+"description": "Pulls all items within a small radius towards the player. What might happen when your inventory is full?"
 },
 {
 "name": "Partystarter",
