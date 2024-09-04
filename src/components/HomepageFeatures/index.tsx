@@ -22,11 +22,13 @@ const MainCategoryList = [
       slug: 'candlelight',
       logo: 'candlelight.png'
   },
+  /*
   {
       name: 'Farm & Char,',
       slug: 'farmcharm',
       logo: 'farmcharm.png'
   },
+  */
   {
       name: 'Furniture',
       slug: 'furniture',
