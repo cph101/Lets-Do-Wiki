@@ -24,6 +24,8 @@ From Trash Bags, you can theoretically get any item from any mod.
 
 Want to prevent something from dropping? Use the trash_bag_blacklist tag.
 
+***
+
 ## Decorative Elements
 These aren't all included blocks. There are a few more! Some of them still have some unique functions or are expandable.
 

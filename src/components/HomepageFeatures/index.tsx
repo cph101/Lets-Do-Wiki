@@ -48,6 +48,11 @@ const MainCategoryList = [
       name: 'Vinery',
       slug: 'vinery',
       logo: 'vinery.png'
+  },
+  {
+      name: 'Wilder Nature',
+      slug: 'wildernature',
+      logo: 'wildernature.png'
   }
 
   // Add more main categories as needed
