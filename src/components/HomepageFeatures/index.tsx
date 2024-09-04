@@ -10,63 +10,44 @@ const MainCategoryList = [
    {
       name: 'Bakery',
       slug: 'bakery',
-      logo: 'bakery.png',
-      description: (
-          <>
-           Find answers to frequently asked questions about Docusaurus and its usage.
-          </>
-      ),
+      logo: 'bakery.png'
   },
   {
       name: 'Brewery',
       slug: 'brewery',
-      logo: 'brewery.png',
-      description: (
-        <>
-          Find answers to frequently asked questions about Docusaurus and its usage.
-        </>
-      ),
+      logo: 'brewery.png'
   },
   {
-        name: 'Candlelight',
-        slug: 'candlelight',
-        logo: 'candlelight.png',
-        description: (
-          <>
-            Find answers to frequently asked questions about Docusaurus and its usage.
-          </>
-        ),
+      name: 'Candlelight',
+      slug: 'candlelight',
+      logo: 'candlelight.png'
   },
   {
-    name: 'Herbal Brews',
-    slug: 'herbalbrews',
-    logo: 'herbalbrews.png',
-    description: (
-        <>
-         Find answers to frequently asked questions about Docusaurus and its usage.
-        </>
-    ),
+      name: 'Farm & Char,',
+      slug: 'farmcharm',
+      logo: 'farmcharm.png'
+  },
+  {
+      name: 'Furniture',
+      slug: 'furniture',
+      logo: 'furniture.png'
+  },
+  {
+      name: 'Herbal Brews',
+      slug: 'herbalbrews',
+      logo: 'herbalbrews.png'
   },
   {
       name: 'Meadow',
       slug: 'meadow',
-      logo: 'meadow.png',
-      description: (
-        <>
-          Start your journey with Docusaurus and learn how to get started with your documentation.
-        </>
-      ),
-    },
-    {
+      logo: 'meadow.png'
+  },
+  {
       name: 'Vinery',
       slug: 'vinery',
-      logo: 'vinery.png',
-      description: (
-        <>
-          Start your journey with Docusaurus and learn how to get started with your documentation.
-        </>
-      ),
-    }
+      logo: 'vinery.png'
+  }
+
   // Add more main categories as needed
 ];
 
@@ -78,7 +59,6 @@ function MainCategory({name, description, slug}: {name: string, description: JSX
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{name}</Heading>
-        <p>{description}</p>
       </div>
     </div>
   );
