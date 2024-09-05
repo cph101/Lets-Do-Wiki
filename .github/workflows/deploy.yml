@@ -23,12 +23,27 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 18
-          cache: yarn
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: npm install
+
+      - name: Set up Git identity as GitHub Actions runner
+        run: |
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+          git config --global user.name "${{ github.actor }}"
+        
+      - name: Push npm lock file
+        run: |
+          git add package-lock.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+          git commit -m "Update npm lock file"
+          git push
+          fi
+          
       - name: Build website
-        run: yarn build
+        run: npm run build
 
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
